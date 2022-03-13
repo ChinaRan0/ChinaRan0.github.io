@@ -1,0 +1,461 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>
+    CTF | 冄老狗
+</title>
+<link rel="shortcut icon" href="https://chinaran0.github.io//favicon.ico?v=1647174062256">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://chinaran0.github.io//styles/main.css">
+<!-- js -->
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://chinaran0.github.io//media/js/jquery.sticky-sidebar.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+    <div class="nav">
+        <div class="logo">
+            <a href="https://chinaran0.github.io/">
+                <img class="avatar" src="https://chinaran0.github.io//images/avatar.png?v=1647174062256" alt="">
+            </a>
+            <div class="site-title">
+                <h1>
+                    冄老狗
+                </h1>
+            </div>
+        </div>
+        <span class="menu-btn fa fa-align-justify"></span>
+        <div class="menu-container">
+            <ul>
+                
+                    
+                            <li>
+                                <a href="/" class="menu">
+                                    首页
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/archives" class="menu">
+                                    归档
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/tags" class="menu">
+                                    标签
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/post/about" class="menu">
+                                    关于
+                                </a>
+                            </li>
+                            
+                                
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function() {
+        $(".menu-btn").click(function() {
+            $(".menu-container").slideToggle();
+        });
+        $(window).resize(function() {
+
+            if (window.matchMedia('(min-width: 960px)').matches) {
+                $(".menu-container").css('display', 'block')
+            } else {
+                $(".menu-container").css('display', 'none')
+            }
+
+        });
+    });
+</script>
+
+            <div id="main-content" class="post-container main-container">
+                <div id="content" class="main-container-left">
+                    
+    <div class="i-card">
+        <b>标签：#
+        CTF</b>
+    </div>
+    
+        
+            <article class="post i-card">
+                <h2 class="post-title">
+                    <a href="https://chinaran0.github.io/post/web-ak-sai-web1_-guan-zi/">
+                        WEB AK赛[WEB1_观字]
+                    </a>
+                </h2>
+                <div class="post-info">
+                    <time class="post-time">2021-09-18</time>
+                    
+                        <a href="https://chinaran0.github.io/tag/YNF3Zw4lu/" class="post-tag i-tag
+                            i-tag-primary">
+            #CTF
+        </a>
+                        
+                </div>
+                <div class="post-article">
+                    
+                        <a href="https://chinaran0.github.io/post/web-ak-sai-web1_-guan-zi/" class="post-feature-image" style="background-image:url(https://chinaran0.github.io//post-images/web-ak-sai-web1_-guan-zi.png) ">
+                        </a>
+                        
+                            <div class="post-content">
+                                
+                                        <div class="post-content-content">
+                                            
+#flag in http://192.168.7.68/flag
+几乎能过滤的都过滤了
+各种方式也是过了
+最后发现，通过中文的句号可以起到绕过。
+提交参数
+?url=http://192。168。7。68/flag
+得到flag
+ctfshow{c4706a2d-ea21-4969-949b-3aa662918c6e}
+
+                                        </div>
+                                        
+                                            <a class="btn btn-text" href="https://chinaran0.github.io/post/web-ak-sai-web1_-guan-zi/">Read More ~</a>
+                            </div>
+                </div>
+            </article>
+            
+            <article class="post i-card">
+                <h2 class="post-title">
+                    <a href="https://chinaran0.github.io/post/ctfshow-nl-nan-liao/">
+                        CTFSHOW-【NL】难了
+                    </a>
+                </h2>
+                <div class="post-info">
+                    <time class="post-time">2021-09-06</time>
+                    
+                        <a href="https://chinaran0.github.io/tag/YNF3Zw4lu/" class="post-tag i-tag
+                            i-tag-banana">
+            #CTF
+        </a>
+                        
+                </div>
+                <div class="post-article">
+                    
+                            <div class="post-content">
+                                
+                                        <div class="post-content-content">
+                                            构造url：
+？1=&amp;gt;nl
+重定向文件了
+构造url：
+？1=*&amp;gt;n
+然后访问n文件就能把引导页下载下来，得到flag
+
+                                        </div>
+                                        
+                                            <a class="btn btn-text" href="https://chinaran0.github.io/post/ctfshow-nl-nan-liao/">Read More ~</a>
+                            </div>
+                </div>
+            </article>
+            
+            <article class="post i-card">
+                <h2 class="post-title">
+                    <a href="https://chinaran0.github.io/post/chi-gua-bei-webre-shen-shellme_revengea/">
+                        吃瓜杯WEB[热身][SHELLME_REVENGE]
+                    </a>
+                </h2>
+                <div class="post-info">
+                    <time class="post-time">2021-08-18</time>
+                    
+                        <a href="https://chinaran0.github.io/tag/YNF3Zw4lu/" class="post-tag i-tag
+                            i-tag-warning">
+            #CTF
+        </a>
+                        
+                </div>
+                <div class="post-article">
+                    
+                        <a href="https://chinaran0.github.io/post/chi-gua-bei-webre-shen-shellme_revengea/" class="post-feature-image" style="background-image:url(https://chinaran0.github.io//post-images/chi-gua-bei-webre-shen-shellme_revengea.png) ">
+                        </a>
+                        
+                            <div class="post-content">
+                                
+                                        <div class="post-content-content">
+                                            热身
+
+构造?num=%2b010574
+得到flag
+shellme_Revenge
+f12得到cookie有用信息
+传参得到源码
+/?looklook=1
+在diaabled_function中，可以看到过滤了system exec shell_exec，因此执行系统命令的函数需要用passthru，构造payload
+
+注意：需要同时提交！
+得到flag
+（我系统刚做好，还没装Burp）
+
+
+                                        </div>
+                                        
+                                            <a class="btn btn-text" href="https://chinaran0.github.io/post/chi-gua-bei-webre-shen-shellme_revengea/">Read More ~</a>
+                            </div>
+                </div>
+            </article>
+            
+            <article class="post i-card">
+                <h2 class="post-title">
+                    <a href="https://chinaran0.github.io/post/ctfshowtan-zhen-xie-lu/">
+                        CTFSHOW[探针泄露]
+                    </a>
+                </h2>
+                <div class="post-info">
+                    <time class="post-time">2021-08-10</time>
+                    
+                        <a href="https://chinaran0.github.io/tag/YNF3Zw4lu/" class="post-tag i-tag
+                            i-tag-warning">
+            #CTF
+        </a>
+                        
+                </div>
+                <div class="post-article">
+                    
+                            <div class="post-content">
+                                
+                                        <div class="post-content-content">
+                                            考的探针题，phpstudy自带的tz.php
+看了一圈在phpinfo文件里
+
+构造payload
+/tz.php?act=phpinfo
+
+拿到flag
+
+                                        </div>
+                                        
+                                            <a class="btn btn-text" href="https://chinaran0.github.io/post/ctfshowtan-zhen-xie-lu/">Read More ~</a>
+                            </div>
+                </div>
+            </article>
+            
+            <article class="post i-card">
+                <h2 class="post-title">
+                    <a href="https://chinaran0.github.io/post/202161-meng-xin-sai-easy_web/">
+                        [2021.6.1萌新赛-EASY_WEB]
+                    </a>
+                </h2>
+                <div class="post-info">
+                    <time class="post-time">2021-06-03</time>
+                    
+                        <a href="https://chinaran0.github.io/tag/YNF3Zw4lu/" class="post-tag i-tag
+                            i-tag-info">
+            #CTF
+        </a>
+                        
+                </div>
+                <div class="post-article">
+                    
+                            <div class="post-content">
+                                
+                                        <div class="post-content-content">
+                                            
+我就号这口
+提取重要语句
+
+思路，利用php弱性进行构造
+e10adc3949ba59abbe56e057f20f883e解密md5后是123456
+拿出我的hackbar
+传个post
+webp=123456
+&amp;amp;a[]=1
+&amp;amp;b[]=2
+&amp;amp;c=9223372036854775806
+
+人心险恶！！！！
+扫了一圈没扫到啥
+猜测应该包含了杂项题
+反手把二次元妹妹下载下来，直接binwalk
+
+果然有东西
+
+fortmost出来
+用已知解压密码解压，得到flag
+最后：
+？？萌新赛？？？？？？？？？？
+
+                                        </div>
+                                        
+                                            <a class="btn btn-text" href="https://chinaran0.github.io/post/202161-meng-xin-sai-easy_web/">Read More ~</a>
+                            </div>
+                </div>
+            </article>
+            
+            <article class="post i-card">
+                <h2 class="post-title">
+                    <a href="https://chinaran0.github.io/post/ctfshowmeng-xin-sai-jia-sai-sheng/">
+                        CTFSHOW[萌新赛-假赛生]
+                    </a>
+                </h2>
+                <div class="post-info">
+                    <time class="post-time">2021-03-07</time>
+                    
+                        <a href="https://chinaran0.github.io/tag/YNF3Zw4lu/" class="post-tag i-tag
+                            i-tag-error">
+            #CTF
+        </a>
+                        
+                </div>
+                <div class="post-article">
+                    
+                            <div class="post-content">
+                                
+                                        <div class="post-content-content">
+                                            没有废话，直接记录，幻想成为套神的徒弟
+
+看来服务器showl了
+题目给了源码
+&#34;; system(&#39;4rfvbgt56yhn.sh&#39;); $query=mysqli_query($conn,$sql); $result=mysqli_fetch_assoc($query); if($name===&#39;admin&#39;){ echo &#34;admin!!!!!&#34;.&#34;&#34;; if(isset($_GET[&#39;c&#39;])){ preg_replace_callback(&#34;/\w\W*/&#34;,function(){die(&#34;not allowed!&#34;);},$_GET[&#39;c&#39;],1); echo $flag; }else{ echo &#34;you not admin&#34;; } } } ?&gt;* 
+
+--&gt;
+根据 if($name===&#39;admin&#39;){
+看来我们必须要用admin登录
+先注册register.php
+register.php注册试过了，不行
+直接登录
+试了一圈，还是他妈不行
+去群里问了一下，注册的时候admin加上个空格会注册成功，试了一下是真的。
+登录成功
+select pass from user where name=&amp;quot;admin&amp;quot;
+admin!!!!!
+you not admin
+又到了该传参的时候了
+规则
+preg_replace_callback(&amp;quot;/\w\W*/&amp;quot;,function(){die(&amp;quot;not allowed!&amp;quot;);},$_GET[&#39;c&#39;],1);
+[\s\S*] 与[\w\W*]其实也就是匹配任意字符
+直接传参数?c=
+
+直接AK好吧！！
+
+                                        </div>
+                                        
+                                            <a class="btn btn-text" href="https://chinaran0.github.io/post/ctfshowmeng-xin-sai-jia-sai-sheng/">Read More ~</a>
+                            </div>
+                </div>
+            </article>
+            
+            <article class="post i-card">
+                <h2 class="post-title">
+                    <a href="https://chinaran0.github.io/post/gong-fang-shi-jie-gong-ye-xie-yi-fen-xi-2/">
+                        攻防世界[工业协议分析2]
+                    </a>
+                </h2>
+                <div class="post-info">
+                    <time class="post-time">2020-09-18</time>
+                    
+                        <a href="https://chinaran0.github.io/tag/YNF3Zw4lu/" class="post-tag i-tag
+                            i-tag-success">
+            #CTF
+        </a>
+                        
+                </div>
+                <div class="post-article">
+                    
+                            <div class="post-content">
+                                
+                                        <div class="post-content-content">
+                                            用wireshark打开pcapng文件，别的你也用不了
+经本人发现，137的流量存在异常字符串
+
+各个进制跑了一遍，发现是16进制
+666c61677b37466f4d3253746b6865507a7d
+工具放这了，自己拿https://tool.lu/hexstr/
+解得flag:flag{7FoM2StkhePz}
+离套神又近了一步！！😉
+
+                                        </div>
+                                        
+                                            <a class="btn btn-text" href="https://chinaran0.github.io/post/gong-fang-shi-jie-gong-ye-xie-yi-fen-xi-2/">Read More ~</a>
+                            </div>
+                </div>
+            </article>
+            
+                <!-- 翻页 -->
+                
+                </div>
+                <!--  -->
+                <div class="main-container-middle"></div>
+                <!--  -->
+                <div id="sidebar" class="main-container-right">
+
+                    <!-- 个人信息 -->
+                    
+    <div class="id_card i-card">
+        <div class="id_card-avatar" style="background-image: url(https://chinaran0.github.io//images/avatar.png?v=1647174062256)">
+        </div>
+        <h1 class="id_card-title">
+            冄老狗
+        </h1>
+        <h2 class="id_card-description">
+            不管是什么原因，被禁止永远是一种没有授勋仪式的荣誉。
+——鲍勃・迪伦
+        </h2>
+        <!--  -->
+        <div class="id_card-sns">
+            <!-- github -->
+            
+                    <!-- twitter -->
+                    
+                            <!-- weibo -->
+                            
+                                    <!-- facebook -->
+                                    
+
+        </div>
+    </div>
+    
+
+                        <!-- 公告栏 -->
+                        
+
+                </div>
+            </div>
+
+
+
+            <div class="site-footer">
+  <a href="https://github.com/ChinaRan0/" target="_blank">I will always pursue my dream</a> | 
+  <a class="rss" href="https://chinaran0.github.io//atom.xml" target="_blank">RSS</a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+    </div>
+    <script>
+        $('#sidebar').stickySidebar({
+            topSpacing: 80,
+            // bottomSpacing: 60
+        });
+    </script>
+</body>
+
+</html>

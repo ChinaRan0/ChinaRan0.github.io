@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://chinaran0.github.io/</id>
+    <title>冄老狗</title>
+    <updated>2022-03-13T12:21:11.824Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://chinaran0.github.io/"/>
+    <link rel="self" href="https://chinaran0.github.io/atom.xml"/>
+    <subtitle>不管是什么原因，被禁止永远是一种没有授勋仪式的荣誉。
+——鲍勃・迪伦</subtitle>
+    <logo>https://chinaran0.github.io/images/avatar.png</logo>
+    <icon>https://chinaran0.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2022, 冄老狗</rights>
+    <entry>
+        <title type="html"><![CDATA[博客同步不成功案例【自我反省】]]></title>
+        <id>https://chinaran0.github.io/post/bo-ke-tong-bu-bu-cheng-gong-an-li-zi-wo-fan-sheng/</id>
+        <link href="https://chinaran0.github.io/post/bo-ke-tong-bu-bu-cheng-gong-an-li-zi-wo-fan-sheng/">
+        </link>
+        <updated>2022-03-13T12:13:26.000Z</updated>
+        <content type="html"><![CDATA[<p>现在的博客是历经了3个月的停更，然后突然想起来，发现我的文件找不到了，所以之前写的博客全都算报废了<br>
+1.重新做配置<br>
+<img src="https://chinaran0.github.io//post-images/1647173728563.png" alt="" loading="lazy"><br>
+我一直以为是GitHub Apps设置Key，然后翻到以前的账号才发现是Personal access tokens</p>
+<p>2.同步问题：<br>
+从网上大神那找到的方案<br>
+从文档里找到Gridea,删除.git文件夹，可以意外的获得成功。</p>
+<p>自我反省：为什么我用了将近两天才找到解决办法<br>
+1.被我自己所知的知识感觉非常自信<br>
+2.在网上找解决方法的时候不自信<br>
+3.只会用自己所学的知识解决问题，不知道闭关锁国会亡国。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[闲来无聊，写了个脚本]]></title>
+        <id>https://chinaran0.github.io/post/xian-lai-wu-liao-xie-liao-ge-jiao-ben/</id>
+        <link href="https://chinaran0.github.io/post/xian-lai-wu-liao-xie-liao-ge-jiao-ben/">
+        </link>
+        <updated>2022-03-13T11:43:05.000Z</updated>
+        <content type="html"><![CDATA[<p>FastPenetrationScan<br>
+https://github.com/ChinaRan0/FPScan<br>
+快速渗透扫描</p>
+<p>开发的初心是快速的进行渗透打点 本人技术菜只会用顺序结构来写 因为我用的kali是虚拟机，考虑到性能就不做多线程了 输入ip全自动就行端口扫描，如果扫描到22，3389，则自动进行暴力破解 如果输入域名，进行whois查询，后期加上子域名爆破 再然后，没有了。</p>
+<p>用到的环境安装命令</p>
+<p>pip install nmap<br>
+sudo apt install nmap<br>
+sudo apt install hydra</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[行了，又让老哥骂了！]]></title>
+        <id>https://chinaran0.github.io/post/xing-liao-you-rang-lao-ge-ma-liao/</id>
+        <link href="https://chinaran0.github.io/post/xing-liao-you-rang-lao-ge-ma-liao/">
+        </link>
+        <updated>2022-03-06T07:32:13.000Z</updated>
+        <content type="html"><![CDATA[<p>我之前不是写了个QQ问候脚本嘛，然后老哥今天又骂我了说，‘正是因为有你这样的脚本在，才让这个网络的键盘侠那么猖狂！’</p>
+<p>我我我...冤枉啊！</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[记录，如何免费下载百度文库上的ppt【道客巴巴等通用】]]></title>
+        <id>https://chinaran0.github.io/post/ji-lu-ru-he-mian-fei-xia-zai-bai-du-wen-ku-shang-de-pptdao-ke-ba-ba-deng-tong-yong/</id>
+        <link href="https://chinaran0.github.io/post/ji-lu-ru-he-mian-fei-xia-zai-bai-du-wen-ku-shang-de-pptdao-ke-ba-ba-deng-tong-yong/">
+        </link>
+        <updated>2022-03-06T06:29:15.000Z</updated>
+        <content type="html"><![CDATA[<p>额，，马上要开始培训了，所以说，ppt我是肯定不会做的，有这时间打csgo多号，然后突然想起来百度文库啥都有，直接梭哈了。<br>
+用到的工具：稻壳阅读器<br>
+目标ppt<br>
+<img src="https://chinaran0.github.io//post-images/1646548269161.png" alt="" loading="lazy"><br>
+然后打开稻壳，输入文档的网址<br>
+<img src="https://chinaran0.github.io//post-images/1646548327590.png" alt="" loading="lazy"><br>
+直接粘贴网址走起，右键另存为<br>
+<img src="https://chinaran0.github.io//post-images/1646548702765.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[带队了->技能大赛]]></title>
+        <id>https://chinaran0.github.io/post/dai-dui-liao-greaterji-neng-da-sai/</id>
+        <link href="https://chinaran0.github.io/post/dai-dui-liao-greaterji-neng-da-sai/">
+        </link>
+        <updated>2022-03-03T12:29:48.000Z</updated>
+        <content type="html"><![CDATA[<p>山东省职业技能大赛，我以指导教师的名义在临沂带队训练，校方答应省一给10w</p>
+<p>.然后我带他们新生，发现一个傻逼的事情，这群有几个傻逼二愣子连开机插优盘都不会，我带你ma啊</p>
+<p>不管了，先为了工资努力吧！！</p>
+<p>冲向市赛！网络搭建省一！</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[开源【当你在QQ群里遇见了喷子】]]></title>
+        <id>https://chinaran0.github.io/post/kai-yuan-dang-ni-zai-qq-qun-li-yu-jian-liao-pen-zi/</id>
+        <link href="https://chinaran0.github.io/post/kai-yuan-dang-ni-zai-qq-qun-li-yu-jian-liao-pen-zi/">
+        </link>
+        <updated>2022-02-10T07:18:18.000Z</updated>
+        <content type="html"><![CDATA[<p>https://github.com/ChinaRan0/QQgreetings<br>
+调用系统剪切板，实现自动问候群友，<br>
+pyperclip pyautogui pymouse 模块自行安装</p>
+<p>被狗比老哥给否定了[流泪]<br>
+bilibili视频地址<br>
+https://www.bilibili.com/video/BV1Mu41197BU</p>
+<figure data-type="image" tabindex="1"><img src="https://chinaran0.github.io//post-images/1646551806761.png" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[随心写-下雨]]></title>
+        <id>https://chinaran0.github.io/post/sui-xin-xie-xia-yu/</id>
+        <link href="https://chinaran0.github.io/post/sui-xin-xie-xia-yu/">
+        </link>
+        <updated>2021-09-19T16:23:08.000Z</updated>
+        <content type="html"><![CDATA[<p>我们罗庄区这边下起了暴雨，一阵阵雷声刺痛我心中，好像在一直追问我：这就是你想要的人生吗？你穷其一生追求的是什么？<br>
+最近有些迷茫，这几年发生了很多事情，先是根张馨宇彻底的隔绝，又是一次次比赛的失落，再然后是炒虚拟货币亏的钱，每一次的失望都深深刺痛我的内心，我不得以每天以自己开心为理由开始消遣，总是以为自己能赶出一番事业，到回头发现自己什么都不是，甚至最简单的SQL语句都写不出来了，这几年我像是和社会脱了根，别人和白酒啤酒，我非得整点红的，别人都在为了自己的兴趣而一步步进步，我却整天坐在电脑面前思考如何进步我的技术，不知道什么时候，我已经活在我自己的世界里，凡是感觉自己开心就好。那我们追逐一生的是什么？每个人都渴望不平凡的的人生，可最终归为平凡，就好比我根张馨宇已经失去联系一年多了，我一直把他当成我上进的目标，这是什么？不过是一丝希望，不过是这个年代每个人泛滥的东西，为什么我要这么重视自己的过去？活好当下不好吗？<br>
+“人这一生总是为过失失去的而不能挽回的和对未来的迷茫所感到压抑”<br>
+总以前的一身“花衣服”到现在出门就是礼服，西装，甚至袜子都得考虑是什么颜色的，我们为什么要考虑别人的目光？<br>
+这个世界总是让人感到不可信，我们不过是大千宇宙中的小蚂蚁，那我们活着是为了什么？为了延续子孙吗？我们更有可能是上帝手中的一片代码，生活是为了“子承父类？”还是为了任人使用的“容器？”<br>
+2021，9.20 00:00 暴雨 随心写</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WEB AK赛[WEB1_观字]]]></title>
+        <id>https://chinaran0.github.io/post/web-ak-sai-web1_-guan-zi/</id>
+        <link href="https://chinaran0.github.io/post/web-ak-sai-web1_-guan-zi/">
+        </link>
+        <updated>2021-09-18T05:47:42.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://chinaran0.github.io//post-images/1646311681873.png" alt="" loading="lazy"><br>
+#flag in http://192.168.7.68/flag<br>
+几乎能过滤的都过滤了<br>
+各种方式也是过了<br>
+最后发现，通过中文的句号可以起到绕过。<br>
+提交参数<br>
+?url=http://192。168。7。68/flag<br>
+得到flag<br>
+ctfshow{c4706a2d-ea21-4969-949b-3aa662918c6e}</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[记录生活【这么大的油条你见过吗】]]></title>
+        <id>https://chinaran0.github.io/post/ji-lu-sheng-huo-zhe-me-da-de-you-tiao-ni-jian-guo-ma/</id>
+        <link href="https://chinaran0.github.io/post/ji-lu-sheng-huo-zhe-me-da-de-you-tiao-ni-jian-guo-ma/">
+        </link>
+        <updated>2021-09-13T12:14:01.000Z</updated>
+        <content type="html"><![CDATA[<p>[距离ctfshow吃瓜杯结束还有13小时]<br>
+大早上饿了，想吃点油条，于是美团上定了到店自取<br>
+路上听着许巍的歌，抽根小烟，生活太自在了。<br>
+这么大油条你见过吗？<br>
+临沂兰山区东方不夜城对过 许家糁馆<br>
+直接五星好评，八块钱买了六根，<br>
+今年第一次吃这么大的油条，<br>
+<img src="https://chinaran0.github.io//post-images/1646310269604.jpg" alt="" loading="lazy"><br>
+吾与思聪如何防</p>
+<p>搞得我都有点不好意思了。<br>
+<img src="https://chinaran0.github.io//post-images/1646310310020.jpg" alt="" loading="lazy"><br>
+<img src="https://chinaran0.github.io//post-images/1646310313635.jpg" alt="" loading="lazy"><br>
+<img src="https://chinaran0.github.io//post-images/1646310317174.jpg" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[手机发烫了，来谈谈人生职业。]]></title>
+        <id>https://chinaran0.github.io/post/shou-ji-fa-tang-liao-lai-tan-tan-ren-sheng-zhi-ye/</id>
+        <link href="https://chinaran0.github.io/post/shou-ji-fa-tang-liao-lai-tan-tan-ren-sheng-zhi-ye/">
+        </link>
+        <updated>2021-09-11T12:45:10.000Z</updated>
+        <content type="html"><![CDATA[<p>#女人是人生路上的绊脚石，我可能这辈子很难再爱上你了吧 ----李宗宸<br>
+现在中国从上到下一直在说职业就业，从父母口中也是听到的考个好大学，找个好工作。<br>
+我之前是一直羡慕那种事业爱情双修的企业家的，从几年前开始我就发现，现在资本主义家全都在社会上说好好工作好好成长，更有好好上学找个好工作这么一说，所有人都在为就业头疼，从来没有人说什么创业，好像人们都很逃避这个话题，无非是“没有钱，没有资源，没有人脉”确实，没有这三要素你肯定不会一帆风顺，但是所有人都在“创业这个词里面说笑”我小时候说我要创业，可能会有几个老师或者亲戚说我支持你，这个想法陪伴我五年了，但是今天我说我想创业，人们带来的不过是敷衍一笑，似乎都在逃避这个问题，大专又何妨，中专又怎样，初中学历谁阻挡？<br>
+其实每个人都在创业，你开了家小门头，开了家超市，在合适的时机做了合适的生意，这也是创业，为什么我们不能开朗一点，趁着年轻多去追逐自己想要的故事，自己想要的人生，人生十有八九不如意，为什么大部分人都不愿意尝试就放弃老的观念真的会顾及我们一生吗？父母让我们考编，你没考，你从大城市混不下去了又想着“早知道我听父母的话，考个编。”也许你可以听进取，觉得父母是对的，但是你觉得你真的努力了吗？为什么大学时光觉得自己独一无二混的风生水起，觉得自己是天是地是四大家族，可是当你失败的时候，落寞的时候，你真的把你的能力发挥到极限了吗？<br>
+什么时候我们才会想起父母的话？在自己人生不如意，觉得世界不是你想象的那么好的时候，你想到父母的话，转头回到了家乡，转头在家乡找了分工打，这真的是你的初心吗？你经历的真的够多吗？没有想过在最艰难的时候坚持一下就胜利了吗？</p>
+]]></content>
+    </entry>
+</feed>
