@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://chinaran0.github.io/</id>
     <title>冄老狗</title>
-    <updated>2022-03-25T02:19:45.781Z</updated>
+    <updated>2022-03-27T06:15:31.352Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://chinaran0.github.io/"/>
     <link rel="self" href="https://chinaran0.github.io/atom.xml"/>
@@ -12,9 +12,23 @@
     <icon>https://chinaran0.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, 冄老狗</rights>
     <entry>
+        <title type="html"><![CDATA[缅怀：MU5735遇难者头七祭]]></title>
+        <id>https://chinaran0.github.io/post/mian-huai-mu5735-yu-nan-zhe-tou-qi-ji/</id>
+        <link href="https://chinaran0.github.io/post/mian-huai-mu5735-yu-nan-zhe-tou-qi-ji/">
+        </link>
+        <updated>2022-03-27T06:14:29.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://chinaran0.github.io//post-images/1648361677281.jpg" alt="" loading="lazy"></figure>
+<p>虽未曾谋面，但已泪流满面……</p>
+<p>希望你们记得回家的路：</p>
+<p>“如果起风了，就乘着风回家；如果下雨了，就顺着雨水、顺着江河湖泊回家；如果是父母来接了，请一定要抓紧他们的衣袖，就像小时候一样，一定不要走丢了，知道吗？”</p>
+<pre><code>     愿逝者安息 ，生者坚强！
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[ThinkPHP 5.0.23RCE[复现-脚本]]]></title>
-        <id>https://chinaran0.github.io/post/thinkphp-5023rcefu-xian-jiao-ben</id>
-        <link href="https://chinaran0.github.io/post/thinkphp-5023rcefu-xian-jiao-ben">
+        <id>https://chinaran0.github.io/post/thinkphp-5023rcefu-xian-jiao-ben/</id>
+        <link href="https://chinaran0.github.io/post/thinkphp-5023rcefu-xian-jiao-ben/">
         </link>
         <updated>2022-03-25T02:09:39.000Z</updated>
         <content type="html"><![CDATA[<p>启动靶场<br>
@@ -30,8 +44,8 @@ https://github.com/ChinaRan0/ThinkPHP5.0.23RCE</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[ThinkPHP5 SQL 注入复现]]></title>
-        <id>https://chinaran0.github.io/post/thinkphp5-sql-zhu-ru-fu-xian</id>
-        <link href="https://chinaran0.github.io/post/thinkphp5-sql-zhu-ru-fu-xian">
+        <id>https://chinaran0.github.io/post/thinkphp5-sql-zhu-ru-fu-xian/</id>
+        <link href="https://chinaran0.github.io/post/thinkphp5-sql-zhu-ru-fu-xian/">
         </link>
         <updated>2022-03-24T06:49:05.000Z</updated>
         <content type="html"><![CDATA[<p>靶场基于vulhub</p>
@@ -47,8 +61,8 @@ http://172.17.0.1/index.php?ids[0,updatexml(0,concat(0xa,user()),0)]=1
     </entry>
     <entry>
         <title type="html"><![CDATA[[警告]最新发现的一种钓鱼方式，大家千万别上当！]]></title>
-        <id>https://chinaran0.github.io/post/jing-gao-zui-xin-fa-xian-de-yi-chong-diao-yu-fang-shi-da-jia-qian-wan-bie-shang-dang</id>
-        <link href="https://chinaran0.github.io/post/jing-gao-zui-xin-fa-xian-de-yi-chong-diao-yu-fang-shi-da-jia-qian-wan-bie-shang-dang">
+        <id>https://chinaran0.github.io/post/jing-gao-zui-xin-fa-xian-de-yi-chong-diao-yu-fang-shi-da-jia-qian-wan-bie-shang-dang/</id>
+        <link href="https://chinaran0.github.io/post/jing-gao-zui-xin-fa-xian-de-yi-chong-diao-yu-fang-shi-da-jia-qian-wan-bie-shang-dang/">
         </link>
         <updated>2022-03-16T05:24:08.000Z</updated>
         <content type="html"><![CDATA[<p>起因？<br>
@@ -68,8 +82,8 @@ http://172.17.0.1/index.php?ids[0,updatexml(0,concat(0xa,user()),0)]=1
     </entry>
     <entry>
         <title type="html"><![CDATA[博客同步不成功案例【自我反省】]]></title>
-        <id>https://chinaran0.github.io/post/bo-ke-tong-bu-bu-cheng-gong-an-li-zi-wo-fan-sheng</id>
-        <link href="https://chinaran0.github.io/post/bo-ke-tong-bu-bu-cheng-gong-an-li-zi-wo-fan-sheng">
+        <id>https://chinaran0.github.io/post/bo-ke-tong-bu-bu-cheng-gong-an-li-zi-wo-fan-sheng/</id>
+        <link href="https://chinaran0.github.io/post/bo-ke-tong-bu-bu-cheng-gong-an-li-zi-wo-fan-sheng/">
         </link>
         <updated>2022-03-13T12:13:26.000Z</updated>
         <content type="html"><![CDATA[<p>现在的博客是历经了3个月的停更，然后突然想起来，发现我的文件找不到了，所以之前写的博客全都算报废了<br>
@@ -87,8 +101,8 @@ http://172.17.0.1/index.php?ids[0,updatexml(0,concat(0xa,user()),0)]=1
     </entry>
     <entry>
         <title type="html"><![CDATA[闲来无聊，写了个脚本]]></title>
-        <id>https://chinaran0.github.io/post/xian-lai-wu-liao-xie-liao-ge-jiao-ben</id>
-        <link href="https://chinaran0.github.io/post/xian-lai-wu-liao-xie-liao-ge-jiao-ben">
+        <id>https://chinaran0.github.io/post/xian-lai-wu-liao-xie-liao-ge-jiao-ben/</id>
+        <link href="https://chinaran0.github.io/post/xian-lai-wu-liao-xie-liao-ge-jiao-ben/">
         </link>
         <updated>2022-03-13T11:43:05.000Z</updated>
         <content type="html"><![CDATA[<p>FastPenetrationScan<br>
@@ -103,8 +117,8 @@ sudo apt install hydra</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[行了，又让老哥骂了！]]></title>
-        <id>https://chinaran0.github.io/post/xing-liao-you-rang-lao-ge-ma-liao</id>
-        <link href="https://chinaran0.github.io/post/xing-liao-you-rang-lao-ge-ma-liao">
+        <id>https://chinaran0.github.io/post/xing-liao-you-rang-lao-ge-ma-liao/</id>
+        <link href="https://chinaran0.github.io/post/xing-liao-you-rang-lao-ge-ma-liao/">
         </link>
         <updated>2022-03-06T07:32:13.000Z</updated>
         <content type="html"><![CDATA[<p>我之前不是写了个QQ问候脚本嘛，然后老哥今天又骂我了说，‘正是因为有你这样的脚本在，才让这个网络的键盘侠那么猖狂！’</p>
@@ -113,8 +127,8 @@ sudo apt install hydra</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[记录，如何免费下载百度文库上的ppt【道客巴巴等通用】]]></title>
-        <id>https://chinaran0.github.io/post/ji-lu-ru-he-mian-fei-xia-zai-bai-du-wen-ku-shang-de-pptdao-ke-ba-ba-deng-tong-yong</id>
-        <link href="https://chinaran0.github.io/post/ji-lu-ru-he-mian-fei-xia-zai-bai-du-wen-ku-shang-de-pptdao-ke-ba-ba-deng-tong-yong">
+        <id>https://chinaran0.github.io/post/ji-lu-ru-he-mian-fei-xia-zai-bai-du-wen-ku-shang-de-pptdao-ke-ba-ba-deng-tong-yong/</id>
+        <link href="https://chinaran0.github.io/post/ji-lu-ru-he-mian-fei-xia-zai-bai-du-wen-ku-shang-de-pptdao-ke-ba-ba-deng-tong-yong/">
         </link>
         <updated>2022-03-06T06:29:15.000Z</updated>
         <content type="html"><![CDATA[<p>额，，马上要开始培训了，所以说，ppt我是肯定不会做的，有这时间打csgo多号，然后突然想起来百度文库啥都有，直接梭哈了。<br>
@@ -129,8 +143,8 @@ sudo apt install hydra</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[带队了->技能大赛]]></title>
-        <id>https://chinaran0.github.io/post/dai-dui-liao-greaterji-neng-da-sai</id>
-        <link href="https://chinaran0.github.io/post/dai-dui-liao-greaterji-neng-da-sai">
+        <id>https://chinaran0.github.io/post/dai-dui-liao-greaterji-neng-da-sai/</id>
+        <link href="https://chinaran0.github.io/post/dai-dui-liao-greaterji-neng-da-sai/">
         </link>
         <updated>2022-03-03T12:29:48.000Z</updated>
         <content type="html"><![CDATA[<p>山东省职业技能大赛，我以指导教师的名义在临沂带队训练，校方答应省一给10w</p>
@@ -141,8 +155,8 @@ sudo apt install hydra</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[开源【当你在QQ群里遇见了喷子】]]></title>
-        <id>https://chinaran0.github.io/post/kai-yuan-dang-ni-zai-qq-qun-li-yu-jian-liao-pen-zi</id>
-        <link href="https://chinaran0.github.io/post/kai-yuan-dang-ni-zai-qq-qun-li-yu-jian-liao-pen-zi">
+        <id>https://chinaran0.github.io/post/kai-yuan-dang-ni-zai-qq-qun-li-yu-jian-liao-pen-zi/</id>
+        <link href="https://chinaran0.github.io/post/kai-yuan-dang-ni-zai-qq-qun-li-yu-jian-liao-pen-zi/">
         </link>
         <updated>2022-02-10T07:18:18.000Z</updated>
         <content type="html"><![CDATA[<p>https://github.com/ChinaRan0/QQgreetings<br>
@@ -152,20 +166,6 @@ pyperclip pyautogui pymouse 模块自行安装</p>
 bilibili视频地址<br>
 https://www.bilibili.com/video/BV1Mu41197BU</p>
 <figure data-type="image" tabindex="1"><img src="https://chinaran0.github.io//post-images/1646551806761.png" alt="" loading="lazy"></figure>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[随心写-下雨]]></title>
-        <id>https://chinaran0.github.io/post/sui-xin-xie-xia-yu</id>
-        <link href="https://chinaran0.github.io/post/sui-xin-xie-xia-yu">
-        </link>
-        <updated>2021-09-19T16:23:08.000Z</updated>
-        <content type="html"><![CDATA[<p>我们罗庄区这边下起了暴雨，一阵阵雷声刺痛我心中，好像在一直追问我：这就是你想要的人生吗？你穷其一生追求的是什么？<br>
-最近有些迷茫，这几年发生了很多事情，先是根张馨宇彻底的隔绝，又是一次次比赛的失落，再然后是炒虚拟货币亏的钱，每一次的失望都深深刺痛我的内心，我不得以每天以自己开心为理由开始消遣，总是以为自己能赶出一番事业，到回头发现自己什么都不是，甚至最简单的SQL语句都写不出来了，这几年我像是和社会脱了根，别人和白酒啤酒，我非得整点红的，别人都在为了自己的兴趣而一步步进步，我却整天坐在电脑面前思考如何进步我的技术，不知道什么时候，我已经活在我自己的世界里，凡是感觉自己开心就好。那我们追逐一生的是什么？每个人都渴望不平凡的的人生，可最终归为平凡，就好比我根张馨宇已经失去联系一年多了，我一直把他当成我上进的目标，这是什么？不过是一丝希望，不过是这个年代每个人泛滥的东西，为什么我要这么重视自己的过去？活好当下不好吗？<br>
-“人这一生总是为过失失去的而不能挽回的和对未来的迷茫所感到压抑”<br>
-总以前的一身“花衣服”到现在出门就是礼服，西装，甚至袜子都得考虑是什么颜色的，我们为什么要考虑别人的目光？<br>
-这个世界总是让人感到不可信，我们不过是大千宇宙中的小蚂蚁，那我们活着是为了什么？为了延续子孙吗？我们更有可能是上帝手中的一片代码，生活是为了“子承父类？”还是为了任人使用的“容器？”<br>
-2021，9.20 00:00 暴雨 随心写</p>
 ]]></content>
     </entry>
 </feed>
