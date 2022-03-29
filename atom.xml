@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://chinaran0.github.io/</id>
     <title>冄老狗</title>
-    <updated>2022-03-29T17:44:22.138Z</updated>
+    <updated>2022-03-29T18:03:30.257Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://chinaran0.github.io/"/>
     <link rel="self" href="https://chinaran0.github.io/atom.xml"/>
@@ -12,7 +12,7 @@
     <icon>https://chinaran0.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, 冄老狗</rights>
     <entry>
-        <title type="html"><![CDATA[[记录网安生活] SpringRCE EXP脚本]]></title>
+        <title type="html"><![CDATA[[记录网安生活] Spring function RCE EXP脚本]]></title>
         <id>https://chinaran0.github.io/post/ji-lu-wang-an-sheng-huo-springrce-exp-jiao-ben/</id>
         <link href="https://chinaran0.github.io/post/ji-lu-wang-an-sheng-huo-springrce-exp-jiao-ben/">
         </link>
@@ -24,7 +24,7 @@ https://github.com/ChinaRan0/SpringRCE-EXP</p>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[[记录网安生活] Spring RCE EXP]]></title>
+        <title type="html"><![CDATA[[记录网安生活] Spring function RCE EXP]]></title>
         <id>https://chinaran0.github.io/post/ji-lu-wang-an-sheng-huo-spring-rce-exp/</id>
         <link href="https://chinaran0.github.io/post/ji-lu-wang-an-sheng-huo-spring-rce-exp/">
         </link>
@@ -72,7 +72,9 @@ https://github.com/shakeman8/Spring-Core-RCE</p>
         <link href="https://chinaran0.github.io/post/ji-lu-wang-an-sheng-huo-springrce-lai-liao/">
         </link>
         <updated>2022-03-29T16:20:33.000Z</updated>
-        <content type="html"><![CDATA[<p>核弹级漏洞，比上次那个更狠，这次直接RCE</p>
+        <content type="html"><![CDATA[<p>出了两个，一个是Function 另一个是Spring core<br>
+简单来说，用Function钓出来Spring大洞<br>
+核弹级漏洞，比上次那个更狠，这次直接RCE</p>
 <p>打着游戏呢，突然来电话了，说出了个0day<br>
 <img src="https://chinaran0.github.io//post-images/1648571012906.jpg" alt="" loading="lazy"></p>
 <p>不说了，开始研究了。</p>
