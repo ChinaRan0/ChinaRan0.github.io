@@ -7,7 +7,7 @@
 <title>
     冄老狗
 </title>
-<link rel="shortcut icon" href="https://chinaran0.github.io//favicon.ico?v=1648571944360">
+<link rel="shortcut icon" href="https://chinaran0.github.io//favicon.ico?v=1648575857632">
 <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
 <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
@@ -27,7 +27,7 @@
     <div class="nav">
         <div class="logo">
             <a href="https://chinaran0.github.io/">
-                <img class="avatar" src="https://chinaran0.github.io//images/avatar.png?v=1648571944360" alt="">
+                <img class="avatar" src="https://chinaran0.github.io//images/avatar.png?v=1648575857632" alt="">
             </a>
             <div class="site-title">
                 <h1>
@@ -99,6 +99,153 @@
         
             <article class="post i-card">
                 <h2 class="post-title">
+                    <a href="https://chinaran0.github.io/post/ji-lu-yi-ci-docker-geng-gai-rong-qi-bao-cun-wei-zhi/">
+                        记录一次DOCKER更改容器保存位置
+                    </a>
+                </h2>
+                <div class="post-info">
+                    <time class="post-time">2021-08-07</time>
+                    
+                        <a href="https://chinaran0.github.io/tag/tj_v5weY_/" class="post-tag i-tag
+                            i-tag-">
+            #Linux
+        </a>
+                        
+                </div>
+                <div class="post-article">
+                    
+                            <div class="post-content">
+                                
+                                        <div class="post-content-content">
+                                            起因：别的不说，要拉取一个18G的容器，我小小的/lib/只分了几十个G，再去拉取镜像我心里他妈过不去
+更改方式：通过ln链接的方式，变向的更改位置
+首先给他妈服务停了
+
+sudo systemctl stop docker
+
+我们以前的容器也不能不要是吧，给他备份一下到新的目录
+sudo mv /var/lib/docker /media/liyu/软件/docker
+后面的/media/liyu/软件/docker是你要保存新的位置
+
+重头戏：ln -sf /media/liyu/软件/docker /var/lib/docker
+链接到新的目录
+当docker需要读取容器时 先查找/var/lib/docker 但是这个目录已经被我们指向到了另一个目录 故达到目的。
+
+
+                                        </div>
+                                        
+                                            <a class="btn btn-text" href="https://chinaran0.github.io/post/ji-lu-yi-ci-docker-geng-gai-rong-qi-bao-cun-wei-zhi/">Read More ~</a>
+                            </div>
+                </div>
+            </article>
+            
+            <article class="post i-card">
+                <h2 class="post-title">
+                    <a href="https://chinaran0.github.io/post/202161-meng-xin-sai-easy_web/">
+                        [2021.6.1萌新赛-EASY_WEB]
+                    </a>
+                </h2>
+                <div class="post-info">
+                    <time class="post-time">2021-06-03</time>
+                    
+                        <a href="https://chinaran0.github.io/tag/YNF3Zw4lu/" class="post-tag i-tag
+                            i-tag-warning">
+            #CTF
+        </a>
+                        
+                </div>
+                <div class="post-article">
+                    
+                            <div class="post-content">
+                                
+                                        <div class="post-content-content">
+                                            
+我就号这口
+提取重要语句
+
+思路，利用php弱性进行构造
+e10adc3949ba59abbe56e057f20f883e解密md5后是123456
+拿出我的hackbar
+传个post
+webp=123456
+&amp;amp;a[]=1
+&amp;amp;b[]=2
+&amp;amp;c=9223372036854775806
+
+人心险恶！！！！
+扫了一圈没扫到啥
+猜测应该包含了杂项题
+反手把二次元妹妹下载下来，直接binwalk
+
+果然有东西
+
+fortmost出来
+用已知解压密码解压，得到flag
+最后：
+？？萌新赛？？？？？？？？？？
+
+                                        </div>
+                                        
+                                            <a class="btn btn-text" href="https://chinaran0.github.io/post/202161-meng-xin-sai-easy_web/">Read More ~</a>
+                            </div>
+                </div>
+            </article>
+            
+            <article class="post i-card">
+                <h2 class="post-title">
+                    <a href="https://chinaran0.github.io/post/ctfshowmeng-xin-sai-jia-sai-sheng/">
+                        CTFSHOW[萌新赛-假赛生]
+                    </a>
+                </h2>
+                <div class="post-info">
+                    <time class="post-time">2021-03-07</time>
+                    
+                        <a href="https://chinaran0.github.io/tag/YNF3Zw4lu/" class="post-tag i-tag
+                            i-tag-">
+            #CTF
+        </a>
+                        
+                </div>
+                <div class="post-article">
+                    
+                            <div class="post-content">
+                                
+                                        <div class="post-content-content">
+                                            没有废话，直接记录，幻想成为套神的徒弟
+
+看来服务器showl了
+题目给了源码
+&#34;; system(&#39;4rfvbgt56yhn.sh&#39;); $query=mysqli_query($conn,$sql); $result=mysqli_fetch_assoc($query); if($name===&#39;admin&#39;){ echo &#34;admin!!!!!&#34;.&#34;&#34;; if(isset($_GET[&#39;c&#39;])){ preg_replace_callback(&#34;/\w\W*/&#34;,function(){die(&#34;not allowed!&#34;);},$_GET[&#39;c&#39;],1); echo $flag; }else{ echo &#34;you not admin&#34;; } } } ?&gt;* 
+
+--&gt;
+根据 if($name===&#39;admin&#39;){
+看来我们必须要用admin登录
+先注册register.php
+register.php注册试过了，不行
+直接登录
+试了一圈，还是他妈不行
+去群里问了一下，注册的时候admin加上个空格会注册成功，试了一下是真的。
+登录成功
+select pass from user where name=&amp;quot;admin&amp;quot;
+admin!!!!!
+you not admin
+又到了该传参的时候了
+规则
+preg_replace_callback(&amp;quot;/\w\W*/&amp;quot;,function(){die(&amp;quot;not allowed!&amp;quot;);},$_GET[&#39;c&#39;],1);
+[\s\S*] 与[\w\W*]其实也就是匹配任意字符
+直接传参数?c=
+
+直接AK好吧！！
+
+                                        </div>
+                                        
+                                            <a class="btn btn-text" href="https://chinaran0.github.io/post/ctfshowmeng-xin-sai-jia-sai-sheng/">Read More ~</a>
+                            </div>
+                </div>
+            </article>
+            
+            <article class="post i-card">
+                <h2 class="post-title">
                     <a href="https://chinaran0.github.io/post/gong-fang-shi-jie-gong-ye-xie-yi-fen-xi-2/">
                         攻防世界[工业协议分析2]
                     </a>
@@ -151,7 +298,7 @@
                     <!-- 个人信息 -->
                     
     <div class="id_card i-card">
-        <div class="id_card-avatar" style="background-image: url(https://chinaran0.github.io//images/avatar.png?v=1648571944360)">
+        <div class="id_card-avatar" style="background-image: url(https://chinaran0.github.io//images/avatar.png?v=1648575857632)">
         </div>
         <h1 class="id_card-title">
             冄老狗

