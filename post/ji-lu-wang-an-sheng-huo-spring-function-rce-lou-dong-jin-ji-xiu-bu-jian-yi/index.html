@@ -5,7 +5,7 @@
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>
-    夜太深，记录一期被割韭菜。 | 冄老狗
+    [记录网安生活] Spring Function RCE漏洞紧急修补建议 | 冄老狗
 </title>
 <link rel="shortcut icon" href="https://chinaran0.github.io//favicon.ico?v=1648610330014">
 <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
@@ -99,39 +99,33 @@
                 <div id="content" class="main-container-left">
                     <article class="post i-card">
                         <h2 class="post-title">
-                            夜太深，记录一期被割韭菜。
+                            [记录网安生活] Spring Function RCE漏洞紧急修补建议
                         </h2>
                         <div class="post-info">
-                            <time class="post-time">2021-08-07</time>
+                            <time class="post-time">2022-03-30</time>
                             
-                                <a href="https://chinaran0.github.io/tag/-_ClkNkC2/" class="post-tag i-tag
-                            i-tag-error">
-                            #随心写
-                        </a>
-                                
                         </div>
                         
                                 <div class="post-content">
-                                    <figure data-type="image" tabindex="1"><img src="https://chinaran0.github.io//post-images/1646552068904.jpg" alt="" loading="lazy"></figure>
-<p>区块链盛世的如今，我踏上了一条不归路。</p>
-<p>懵懂不懂的我玩起了合约，我的第一次开仓基本是没有一点点基础知识，<br>
-本来小日子可以过的风生水起的我却如今12小时工作。<br>
-没有还不完的债，只有不努力的人。</p>
-<p>记录1:<br>
-七月五号<br>
-<img src="https://chinaran0.github.io//post-images/1646552089547.jpg" alt="" loading="lazy"></p>
-<p>50倍杠杆拉满，输了。<br>
-没有一点基础知识的我第n次被割韭菜。</p>
-<p>记录2（韭菜根）:<br>
-我这次的韭菜根都没了<br>
-125倍杠杆直接拉满! 梭哈！！<br>
-<img src="https://chinaran0.github.io//post-images/1646552112798.png" alt="" loading="lazy"></p>
-<p>努力了几年的我，没了</p>
-<p>一个月没有多少生活费，甚至倒贴钱，每天在各大商场里送外卖，白天去板厂，晚上去烧烤.<br>
-都说区块链这东西碰不得，合约更是应远离，我却上瘾了，每一次都想着能力挽狂澜，却屡屡战败</p>
-<p>曾经一起抢着买单的兄弟也断了联系，我也过上了安稳的生活，闲下来关心关心圈子里的动态，看看有没有什么新的技术，什么新的思路，这是唯一能让我找到安稳感的东西，这是我的梦想。</p>
-<p>夜深了，愿所有失去的，都已另一种方式还回来。</p>
-<figure data-type="image" tabindex="2"><img src="https://chinaran0.github.io//post-images/1646552179733.jpg" alt="" loading="lazy"></figure>
+                                    <p>`<br>
+在应用系统的项目包下新建以下全局类，并保证这个类被 Spring 加载到(推荐在<br>
+Controller 所在的包中添加)。完成类添加后，需对项目进行重新编译打包和功能验证测试。<br>
+并重新发布项目。</p>
+<p>import org.springframework.core.annotation.Order;<br>
+import org.springframework.web.bind.WebDataBinder;<br>
+import org.springframework.web.bind.annotation.ControllerAdvice;<br>
+import org.springframework.web.bind.annotation.InitBinder;<br>
+@ControllerAdvice<br>
+@Order(10000)<br>
+public class Xttblog{<br>
+  @InitBinder<br>
+  public void setAllowedFields(WebDataBinder dataBinder) {<br>
+    String[] claArr = new String[]{&quot;class.<em>&quot;, &quot;Class.</em>&quot;, &quot;<em>.class.</em>&quot;, &quot;<em>.Class.</em>&quot;};<br>
+    dataBinder.setDisallowedFields(claArr);<br>
+  }<br>
+}</p>
+<p>'</p>
+<p>别问，core的poc还没出来，通了个大宵了。</p>
 
                                 </div>
                     </article>
@@ -139,9 +133,9 @@
                     
                         <div class="next-post">
                             <div class="next">下一篇</div>
-                            <a href="https://chinaran0.github.io/post/ji-lu-yi-ci-docker-geng-gai-rong-qi-bao-cun-wei-zhi/">
+                            <a href="https://chinaran0.github.io/post/ji-lu-wang-an-sheng-huo-springrce-exp-jiao-ben/">
                                 <h3 class="post-title">
-                                    记录一次DOCKER更改容器保存位置
+                                    [记录网安生活] Spring function RCE EXP脚本
                                 </h3>
                             </a>
                         </div>

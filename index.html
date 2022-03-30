@@ -7,7 +7,7 @@
 <title>
     冄老狗
 </title>
-<link rel="shortcut icon" href="https://chinaran0.github.io//favicon.ico?v=1648576996018">
+<link rel="shortcut icon" href="https://chinaran0.github.io//favicon.ico?v=1648610330014">
 <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
 <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
@@ -27,7 +27,7 @@
     <div class="nav">
         <div class="logo">
             <a href="https://chinaran0.github.io/">
-                <img class="avatar" src="https://chinaran0.github.io//images/avatar.png?v=1648576996018" alt="">
+                <img class="avatar" src="https://chinaran0.github.io//images/avatar.png?v=1648610330014" alt="">
             </a>
             <div class="site-title">
                 <h1>
@@ -99,6 +99,48 @@
         
             <article class="post i-card">
                 <h2 class="post-title">
+                    <a href="https://chinaran0.github.io/post/ji-lu-wang-an-sheng-huo-spring-function-rce-lou-dong-jin-ji-xiu-bu-jian-yi/">
+                        [记录网安生活] Spring Function RCE漏洞紧急修补建议
+                    </a>
+                </h2>
+                <div class="post-info">
+                    <time class="post-time">2022-03-30</time>
+                    
+                </div>
+                <div class="post-article">
+                    
+                            <div class="post-content">
+                                
+                                        <div class="post-content-content">
+                                            `
+在应用系统的项目包下新建以下全局类，并保证这个类被 Spring 加载到(推荐在
+Controller 所在的包中添加)。完成类添加后，需对项目进行重新编译打包和功能验证测试。
+并重新发布项目。
+import org.springframework.core.annotation.Order;
+import org.springframework.web.bind.WebDataBinder;
+import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.bind.annotation.InitBinder;
+@ControllerAdvice
+@Order(10000)
+public class Xttblog{
+  @InitBinder
+  public void setAllowedFields(WebDataBinder dataBinder) {
+    String[] claArr = new String[]{&amp;quot;class.&amp;quot;, &amp;quot;Class.&amp;quot;, &amp;quot;.class.&amp;quot;, &amp;quot;.Class.&amp;quot;};
+    dataBinder.setDisallowedFields(claArr);
+  }
+}
+&#39;
+别问，core的poc还没出来，通了个大宵了。
+
+                                        </div>
+                                        
+                                            <a class="btn btn-text" href="https://chinaran0.github.io/post/ji-lu-wang-an-sheng-huo-spring-function-rce-lou-dong-jin-ji-xiu-bu-jian-yi/">Read More ~</a>
+                            </div>
+                </div>
+            </article>
+            
+            <article class="post i-card">
+                <h2 class="post-title">
                     <a href="https://chinaran0.github.io/post/ji-lu-wang-an-sheng-huo-springrce-exp-jiao-ben/">
                         [记录网安生活] Spring function RCE EXP脚本
                     </a>
@@ -134,7 +176,7 @@ https://github.com/ChinaRan0/SpringRCE-EXP
                     <time class="post-time">2022-03-30</time>
                     
                         <a href="https://chinaran0.github.io/tag/JoRex_R-o/" class="post-tag i-tag
-                            i-tag-info">
+                            i-tag-other_3">
             #网络安全
         </a>
                         
@@ -202,7 +244,7 @@ https://www.virustotal.com/gui/file/45ef7d9efba711af2196fe0d14097293fb0922
                     <time class="post-time">2022-03-30</time>
                     
                         <a href="https://chinaran0.github.io/tag/JoRex_R-o/" class="post-tag i-tag
-                            i-tag-banana">
+                            i-tag-success">
             #网络安全
         </a>
                         
@@ -232,7 +274,7 @@ https://www.virustotal.com/gui/file/45ef7d9efba711af2196fe0d14097293fb0922
                     <time class="post-time">2022-03-30</time>
                     
                         <a href="https://chinaran0.github.io/tag/JoRex_R-o/" class="post-tag i-tag
-                            i-tag-banana">
+                            i-tag-">
             #网络安全
         </a>
                         
@@ -266,7 +308,7 @@ https://www.virustotal.com/gui/file/45ef7d9efba711af2196fe0d14097293fb0922
                     <time class="post-time">2022-03-27</time>
                     
                         <a href="https://chinaran0.github.io/tag/-_ClkNkC2/" class="post-tag i-tag
-                            i-tag-warning">
+                            i-tag-">
             #随心写
         </a>
                         
@@ -403,7 +445,7 @@ https://github.com/ChinaRan0/ThinkPHP5.0.23RCE
                     <time class="post-time">2022-03-13</time>
                     
                         <a href="https://chinaran0.github.io/tag/-_ClkNkC2/" class="post-tag i-tag
-                            i-tag-primary">
+                            i-tag-banana">
             #随心写
         </a>
                         
@@ -501,7 +543,7 @@ sudo apt install hydra
                     <time class="post-time">2022-03-06</time>
                     
                         <a href="https://chinaran0.github.io/tag/tj_v5weY_/" class="post-tag i-tag
-                            i-tag-success">
+                            i-tag-warning">
             #Linux
         </a>
                         
@@ -537,7 +579,7 @@ sudo apt install hydra
                     <time class="post-time">2022-03-03</time>
                     
                         <a href="https://chinaran0.github.io/tag/-_ClkNkC2/" class="post-tag i-tag
-                            i-tag-other_2">
+                            i-tag-other_4">
             #随心写
         </a>
                         
@@ -555,44 +597,6 @@ sudo apt install hydra
                                         </div>
                                         
                                             <a class="btn btn-text" href="https://chinaran0.github.io/post/dai-dui-liao-greaterji-neng-da-sai/">Read More ~</a>
-                            </div>
-                </div>
-            </article>
-            
-            <article class="post i-card">
-                <h2 class="post-title">
-                    <a href="https://chinaran0.github.io/post/kai-yuan-dang-ni-zai-qq-qun-li-yu-jian-liao-pen-zi/">
-                        开源【当你在QQ群里遇见了喷子】
-                    </a>
-                </h2>
-                <div class="post-info">
-                    <time class="post-time">2022-02-10</time>
-                    
-                        <a href="https://chinaran0.github.io/tag/_LKznu0uDu/" class="post-tag i-tag
-                            i-tag-warning">
-            #Python
-        </a>
-                        
-                </div>
-                <div class="post-article">
-                    
-                        <a href="https://chinaran0.github.io/post/kai-yuan-dang-ni-zai-qq-qun-li-yu-jian-liao-pen-zi/" class="post-feature-image" style="background-image:url(https://chinaran0.github.io//post-images/kai-yuan-dang-ni-zai-qq-qun-li-yu-jian-liao-pen-zi.webp) ">
-                        </a>
-                        
-                            <div class="post-content">
-                                
-                                        <div class="post-content-content">
-                                            https://github.com/ChinaRan0/QQgreetings
-调用系统剪切板，实现自动问候群友，
-pyperclip pyautogui pymouse 模块自行安装
-被狗比老哥给否定了[流泪]
-bilibili视频地址
-https://www.bilibili.com/video/BV1Mu41197BU
-
-
-                                        </div>
-                                        
-                                            <a class="btn btn-text" href="https://chinaran0.github.io/post/kai-yuan-dang-ni-zai-qq-qun-li-yu-jian-liao-pen-zi/">Read More ~</a>
                             </div>
                 </div>
             </article>
@@ -615,7 +619,7 @@ https://www.bilibili.com/video/BV1Mu41197BU
                     <!-- 个人信息 -->
                     
     <div class="id_card i-card">
-        <div class="id_card-avatar" style="background-image: url(https://chinaran0.github.io//images/avatar.png?v=1648576996018)">
+        <div class="id_card-avatar" style="background-image: url(https://chinaran0.github.io//images/avatar.png?v=1648610330014)">
         </div>
         <h1 class="id_card-title">
             冄老狗

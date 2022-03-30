@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://chinaran0.github.io/</id>
     <title>冄老狗</title>
-    <updated>2022-03-29T18:06:50.133Z</updated>
+    <updated>2022-03-30T03:18:57.369Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://chinaran0.github.io/"/>
     <link rel="self" href="https://chinaran0.github.io/atom.xml"/>
@@ -11,6 +11,33 @@
     <logo>https://chinaran0.github.io/images/avatar.png</logo>
     <icon>https://chinaran0.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, 冄老狗</rights>
+    <entry>
+        <title type="html"><![CDATA[[记录网安生活] Spring Function RCE漏洞紧急修补建议]]></title>
+        <id>https://chinaran0.github.io/post/ji-lu-wang-an-sheng-huo-spring-function-rce-lou-dong-jin-ji-xiu-bu-jian-yi/</id>
+        <link href="https://chinaran0.github.io/post/ji-lu-wang-an-sheng-huo-spring-function-rce-lou-dong-jin-ji-xiu-bu-jian-yi/">
+        </link>
+        <updated>2022-03-30T03:11:54.000Z</updated>
+        <content type="html"><![CDATA[<p>`<br>
+在应用系统的项目包下新建以下全局类，并保证这个类被 Spring 加载到(推荐在<br>
+Controller 所在的包中添加)。完成类添加后，需对项目进行重新编译打包和功能验证测试。<br>
+并重新发布项目。</p>
+<p>import org.springframework.core.annotation.Order;<br>
+import org.springframework.web.bind.WebDataBinder;<br>
+import org.springframework.web.bind.annotation.ControllerAdvice;<br>
+import org.springframework.web.bind.annotation.InitBinder;<br>
+@ControllerAdvice<br>
+@Order(10000)<br>
+public class Xttblog{<br>
+  @InitBinder<br>
+  public void setAllowedFields(WebDataBinder dataBinder) {<br>
+    String[] claArr = new String[]{&quot;class.<em>&quot;, &quot;Class.</em>&quot;, &quot;<em>.class.</em>&quot;, &quot;<em>.Class.</em>&quot;};<br>
+    dataBinder.setDisallowedFields(claArr);<br>
+  }<br>
+}</p>
+<p>'</p>
+<p>别问，core的poc还没出来，通了个大宵了。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[[记录网安生活] Spring function RCE EXP脚本]]></title>
         <id>https://chinaran0.github.io/post/ji-lu-wang-an-sheng-huo-springrce-exp-jiao-ben/</id>
@@ -147,25 +174,6 @@ http://172.17.0.1/index.php?ids[0,updatexml(0,concat(0xa,user()),0)]=1
 <img src="https://chinaran0.github.io//post-images/1647408596585.png" alt="" loading="lazy"><br>
 群里的老哥也‘我操’了</p>
 <figure data-type="image" tabindex="1"><img src="https://chinaran0.github.io//post-images/1647408661300.png" alt="" loading="lazy"></figure>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[博客同步不成功案例【自我反省】]]></title>
-        <id>https://chinaran0.github.io/post/bo-ke-tong-bu-bu-cheng-gong-an-li-zi-wo-fan-sheng/</id>
-        <link href="https://chinaran0.github.io/post/bo-ke-tong-bu-bu-cheng-gong-an-li-zi-wo-fan-sheng/">
-        </link>
-        <updated>2022-03-13T12:13:26.000Z</updated>
-        <content type="html"><![CDATA[<p>现在的博客是历经了3个月的停更，然后突然想起来，发现我的文件找不到了，所以之前写的博客全都算报废了<br>
-1.重新做配置<br>
-<img src="https://chinaran0.github.io//post-images/1647173728563.png" alt="" loading="lazy"><br>
-我一直以为是GitHub Apps设置Key，然后翻到以前的账号才发现是Personal access tokens</p>
-<p>2.同步问题：<br>
-从网上大神那找到的方案<br>
-从文档里找到Gridea,删除.git文件夹，可以意外的获得成功。</p>
-<p>自我反省：为什么我用了将近两天才找到解决办法<br>
-1.被我自己所知的知识感觉非常自信<br>
-2.在网上找解决方法的时候不自信<br>
-3.只会用自己所学的知识解决问题，不知道闭关锁国会亡国。</p>
 ]]></content>
     </entry>
 </feed>
