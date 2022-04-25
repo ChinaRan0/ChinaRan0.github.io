@@ -7,7 +7,7 @@
 <title>
     CTF | 冄老狗
 </title>
-<link rel="shortcut icon" href="https://chinaran0.github.io//favicon.ico?v=1648801305914">
+<link rel="shortcut icon" href="https://chinaran0.github.io//favicon.ico?v=1650853549475">
 <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
 <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
@@ -27,7 +27,7 @@
     <div class="nav">
         <div class="logo">
             <a href="https://chinaran0.github.io/">
-                <img class="avatar" src="https://chinaran0.github.io//images/avatar.png?v=1648801305914" alt="">
+                <img class="avatar" src="https://chinaran0.github.io//images/avatar.png?v=1650853549475" alt="">
             </a>
             <div class="site-title">
                 <h1>
@@ -104,6 +104,52 @@
         
             <article class="post i-card">
                 <h2 class="post-title">
+                    <a href="https://chinaran0.github.io/post/t-star-gao-xiao-tiao-zhan-sai-di-liu-ti/">
+                        [T-Star高校挑战赛]第六题
+                    </a>
+                </h2>
+                <div class="post-info">
+                    <time class="post-time">2022-04-25</time>
+                    
+                        <a href="https://chinaran0.github.io/tag/YNF3Zw4lu/" class="post-tag i-tag
+                            i-tag-primary">
+            #CTF
+        </a>
+                        
+                </div>
+                <div class="post-article">
+                    
+                            <div class="post-content">
+                                
+                                        <div class="post-content-content">
+                                            下载得到guess
+file guess 得到他的格式是word，然后打开，显示隐藏内容，得到：
+
+然后binwalk 出来一张图片
+
+不用想，肯定是隐写
+跟据题目guess和已知密钥123456
+有一个图片隐写是outguess，
+git clone https://github.com/crorvick/outguess
+自行下载编译安装
+然后解
+outguess -k 123456 -r image1.jpg text.txt
+
+然后给他拼接起来得到一个新的地址：
+http://175.178.148.197/062ycz7s9458b772e91/webs/
+
+后来我就没继续做，一直没找到flag，后来赛后师傅们写出来文章，md,我差一点就拿到flag了
+flag地址：http://175.178.148.197/062ycz7s9458b772e91/webs/index.php?url=http://127.0.0.2/062ycz7s9458b772e91/webs/flag.php
+
+                                        </div>
+                                        
+                                            <a class="btn btn-text" href="https://chinaran0.github.io/post/t-star-gao-xiao-tiao-zhan-sai-di-liu-ti/">Read More ~</a>
+                            </div>
+                </div>
+            </article>
+            
+            <article class="post i-card">
+                <h2 class="post-title">
                     <a href="https://chinaran0.github.io/post/web-ak-sai-web1_-guan-zi/">
                         WEB AK赛[WEB1_观字]
                     </a>
@@ -112,7 +158,7 @@
                     <time class="post-time">2021-09-18</time>
                     
                         <a href="https://chinaran0.github.io/tag/YNF3Zw4lu/" class="post-tag i-tag
-                            i-tag-warning">
+                            i-tag-other_1">
             #CTF
         </a>
                         
@@ -152,7 +198,7 @@ ctfshow{c4706a2d-ea21-4969-949b-3aa662918c6e}
                     <time class="post-time">2021-09-06</time>
                     
                         <a href="https://chinaran0.github.io/tag/YNF3Zw4lu/" class="post-tag i-tag
-                            i-tag-error">
+                            i-tag-info">
             #CTF
         </a>
                         
@@ -186,7 +232,7 @@ ctfshow{c4706a2d-ea21-4969-949b-3aa662918c6e}
                     <time class="post-time">2021-08-18</time>
                     
                         <a href="https://chinaran0.github.io/tag/YNF3Zw4lu/" class="post-tag i-tag
-                            i-tag-other_3">
+                            i-tag-banana">
             #CTF
         </a>
                         
@@ -231,7 +277,7 @@ f12得到cookie有用信息
                     <time class="post-time">2021-08-10</time>
                     
                         <a href="https://chinaran0.github.io/tag/YNF3Zw4lu/" class="post-tag i-tag
-                            i-tag-other_2">
+                            i-tag-other_4">
             #CTF
         </a>
                         
@@ -266,7 +312,7 @@ f12得到cookie有用信息
                     <time class="post-time">2021-06-03</time>
                     
                         <a href="https://chinaran0.github.io/tag/YNF3Zw4lu/" class="post-tag i-tag
-                            i-tag-other_3">
+                            i-tag-error">
             #CTF
         </a>
                         
@@ -318,7 +364,7 @@ fortmost出来
                     <time class="post-time">2021-03-07</time>
                     
                         <a href="https://chinaran0.github.io/tag/YNF3Zw4lu/" class="post-tag i-tag
-                            i-tag-other_3">
+                            i-tag-primary">
             #CTF
         </a>
                         
@@ -408,7 +454,7 @@ preg_replace_callback(&amp;quot;/\w\W*/&amp;quot;,function(){die(&amp;quot;not a
                     <!-- 个人信息 -->
                     
     <div class="id_card i-card">
-        <div class="id_card-avatar" style="background-image: url(https://chinaran0.github.io//images/avatar.png?v=1648801305914)">
+        <div class="id_card-avatar" style="background-image: url(https://chinaran0.github.io//images/avatar.png?v=1650853549475)">
         </div>
         <h1 class="id_card-title">
             冄老狗

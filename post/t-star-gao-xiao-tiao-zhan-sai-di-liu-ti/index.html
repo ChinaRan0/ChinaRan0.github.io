@@ -5,7 +5,7 @@
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>
-    [记录网安生活] SpringRCE 应急相应 | 冄老狗
+    [T-Star高校挑战赛]第六题 | 冄老狗
 </title>
 <link rel="shortcut icon" href="https://chinaran0.github.io//favicon.ico?v=1650853549475">
 <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
@@ -99,21 +99,37 @@
                 <div id="content" class="main-container-left">
                     <article class="post i-card">
                         <h2 class="post-title">
-                            [记录网安生活] SpringRCE 应急相应
+                            [T-Star高校挑战赛]第六题
                         </h2>
                         <div class="post-info">
-                            <time class="post-time">2022-03-30</time>
+                            <time class="post-time">2022-04-25</time>
                             
-                                <a href="https://chinaran0.github.io/tag/JoRex_R-o/" class="post-tag i-tag
-                            i-tag-warning">
-                            #网络安全
+                                <a href="https://chinaran0.github.io/tag/YNF3Zw4lu/" class="post-tag i-tag
+                            i-tag-banana">
+                            #CTF
                         </a>
                                 
                         </div>
                         
                                 <div class="post-content">
-                                    <p><img src="https://chinaran0.github.io//post-images/1648571425633.jpg" alt="" loading="lazy"><br>
-<img src="https://chinaran0.github.io//post-images/1648571431224.jpg" alt="" loading="lazy"></p>
+                                    <p>下载得到guess</p>
+<p>file guess 得到他的格式是word，然后打开，显示隐藏内容，得到：<br>
+<img src="https://chinaran0.github.io//post-images/1650852591161.png" alt="" loading="lazy"></p>
+<p>然后binwalk 出来一张图片<br>
+<img src="https://chinaran0.github.io//post-images/1650852646624.jpg" alt="" loading="lazy"><br>
+不用想，肯定是隐写<br>
+跟据题目guess和已知密钥123456<br>
+有一个图片隐写是outguess，<br>
+git clone https://github.com/crorvick/outguess<br>
+自行下载编译安装<br>
+然后解<br>
+outguess -k 123456 -r image1.jpg text.txt<br>
+<img src="https://chinaran0.github.io//post-images/1650853102641.png" alt="" loading="lazy"></p>
+<p>然后给他拼接起来得到一个新的地址：<br>
+http://175.178.148.197/062ycz7s9458b772e91/webs/<br>
+<img src="https://chinaran0.github.io//post-images/1650853266630.png" alt="" loading="lazy"></p>
+<p>后来我就没继续做，一直没找到flag，后来赛后师傅们写出来文章，md,我差一点就拿到flag了<br>
+flag地址：http://175.178.148.197/062ycz7s9458b772e91/webs/index.php?url=http://127.0.0.2/062ycz7s9458b772e91/webs/flag.php</p>
 
                                 </div>
                     </article>
@@ -121,9 +137,9 @@
                     
                         <div class="next-post">
                             <div class="next">下一篇</div>
-                            <a href="https://chinaran0.github.io/post/ji-lu-wang-an-sheng-huo-springrce-lai-liao/">
+                            <a href="https://chinaran0.github.io/post/python-jiao-ben-expsearch-yi-jian-sou-suo-exppoc/">
                                 <h3 class="post-title">
-                                    [记录网安生活] SpringRCE 来了
+                                    [python脚本] EXPSearch一键搜索EXP/POC
                                 </h3>
                             </a>
                         </div>
