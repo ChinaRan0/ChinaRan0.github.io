@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://chinaran0.github.io/</id>
     <title>冄老狗</title>
-    <updated>2022-04-25T02:28:49.728Z</updated>
+    <updated>2022-05-06T04:56:20.764Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://chinaran0.github.io/"/>
     <link rel="self" href="https://chinaran0.github.io/atom.xml"/>
@@ -11,6 +11,22 @@
     <logo>https://chinaran0.github.io/images/avatar.png</logo>
     <icon>https://chinaran0.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, 冄老狗</rights>
+    <entry>
+        <title type="html"><![CDATA[[记录生活]我来骂两句中国现代网络产品]]></title>
+        <id>https://chinaran0.github.io/post/ji-lu-sheng-huo-wo-lai-ma-liang-ju-zhong-guo-xian-dai-wang-luo-chan-pin/</id>
+        <link href="https://chinaran0.github.io/post/ji-lu-sheng-huo-wo-lai-ma-liang-ju-zhong-guo-xian-dai-wang-luo-chan-pin/">
+        </link>
+        <updated>2022-05-06T04:42:05.000Z</updated>
+        <content type="html"><![CDATA[<pre><code>今天，我电脑驱动出问题了，我想下个驱动引起来的注释
+</code></pre>
+<p>我要用驱动精灵，上来给我捆绑一堆软件，试问，这中良心的企业在哪还能见到？这就帮我们省去了下载的麻烦，直接一个全家桶，试问，你自己开发的软件你自己用吗？下一个100来m的驱动，然后告诉我付费，不充vip就30kb下载速度，试问？这种良心企业在哪里还能见到？我天天给你的老婆装驱动，你老婆电脑天天坏，我天天去你家修电脑，你老婆知道吗？<br>
+然后我又转移到了360驱动大师，这还算比较良心，只不过贴心的给我们换了浏览器手机，还贴心的装了360全家桶，我真的是太爱360了，爱的死死的，爱到无语论比，比爱你老婆还爱！<br>
+接着我转移到了DriverPack，没啥问题，进入一个所谓的“安全模式”，只不过是为了不让用户看到火绒的警告，后台给我安装了一大堆浏览器。怎么办，你这么多老婆主动来找我，怎么办？我先用哪一个？<br>
+接着我来到了鲁大师，国内的软件嘛，都知道，还是一顿操作猛如虎，你妈直接找我安了点流氓软件，接着劫持了我的首页，不愧是良心企业，处处为了用户着想，然后这么为用户着想肯定后台在帮我们安装软件，cpu不知不觉到了100读，然后醒目的红字给你报警，说危险，你老婆喝了40度的热水，赶紧上医院吧，不然就活过来了！，不知道这样的企业有没有母亲，有的话藏好喽～我来喽～<br>
+驱动人生也不用说了，流氓软件+劫持首页，还收费，还死贵，不知道你老婆一晚上贵不贵？</p>
+<p>总结：现在良心企业很少了，都为了圈钱，但实际意义上企业有钱了吗？没有。我很喜欢一句话，如果快乐也被定义，那么就不叫快乐了。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[[T-Star高校挑战赛]第六题]]></title>
         <id>https://chinaran0.github.io/post/t-star-gao-xiao-tiao-zhan-sai-di-liu-ti/</id>
@@ -161,20 +177,6 @@ https://github.com/shakeman8/Spring-Core-RCE</p>
 <p>打着游戏呢，突然来电话了，说出了个0day<br>
 <img src="https://chinaran0.github.io//post-images/1648571012906.jpg" alt="" loading="lazy"></p>
 <p>不说了，开始研究了。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[缅怀：MU5735遇难者头七祭]]></title>
-        <id>https://chinaran0.github.io/post/mian-huai-mu5735-yu-nan-zhe-tou-qi-ji/</id>
-        <link href="https://chinaran0.github.io/post/mian-huai-mu5735-yu-nan-zhe-tou-qi-ji/">
-        </link>
-        <updated>2022-03-27T06:14:29.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://chinaran0.github.io//post-images/1648361677281.jpg" alt="" loading="lazy"></figure>
-<p>虽未曾谋面，但已泪流满面……</p>
-<p>希望你们记得回家的路：</p>
-<p>“如果起风了，就乘着风回家；如果下雨了，就顺着雨水、顺着江河湖泊回家；如果是父母来接了，请一定要抓紧他们的衣袖，就像小时候一样，一定不要走丢了，知道吗？”</p>
-<pre><code>     愿逝者安息 ，生者坚强！
-</code></pre>
 ]]></content>
     </entry>
 </feed>
