@@ -1,0 +1,217 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>
+    [2021.6.1萌新赛-EASY_WEB] | 冄老狗
+</title>
+<link rel="shortcut icon" href="https://chinaran0.github.io//favicon.ico?v=1668866049705">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://chinaran0.github.io//styles/main.css">
+<!-- js -->
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://chinaran0.github.io//media/js/jquery.sticky-sidebar.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+
+
+        
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+    <div class="nav">
+        <div class="logo">
+            <a href="https://chinaran0.github.io/">
+                <img class="avatar" src="https://chinaran0.github.io//images/avatar.png?v=1668866049705" alt="">
+            </a>
+            <div class="site-title">
+                <h1>
+                    冄老狗
+                </h1>
+            </div>
+        </div>
+        <span class="menu-btn fa fa-align-justify"></span>
+        <div class="menu-container">
+            <ul>
+                
+                    
+                            <li>
+                                <a href="/" class="menu">
+                                    首页
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/archives" class="menu">
+                                    归档
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/tags" class="menu">
+                                    标签
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/post/about" class="menu">
+                                    关于
+                                </a>
+                            </li>
+                            
+                                
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function() {
+        $(".menu-btn").click(function() {
+            $(".menu-container").slideToggle();
+        });
+        $(window).resize(function() {
+
+            if (window.matchMedia('(min-width: 960px)').matches) {
+                $(".menu-container").css('display', 'block')
+            } else {
+                $(".menu-container").css('display', 'none')
+            }
+
+        });
+    });
+</script>
+
+            <div id="main-content" class="post-detail main-container">
+                <!-- left -->
+                <div id="content" class="main-container-left">
+                    <article class="post i-card">
+                        <h2 class="post-title">
+                            [2021.6.1萌新赛-EASY_WEB]
+                        </h2>
+                        <div class="post-info">
+                            <time class="post-time">2021-06-03</time>
+                            
+                                <a href="https://chinaran0.github.io/tag/YNF3Zw4lu/" class="post-tag i-tag
+                            i-tag-other_3">
+                            #CTF
+                        </a>
+                                
+                        </div>
+                        
+                                <div class="post-content">
+                                    <p><img src="https://chinaran0.github.io//post-images/1646552395635.png" alt="" loading="lazy"><br>
+我就号这口</p>
+<p>提取重要语句<br>
+<img src="https://chinaran0.github.io//post-images/1646552408192.png" alt="" loading="lazy"><br>
+思路，利用php弱性进行构造<br>
+e10adc3949ba59abbe56e057f20f883e解密md5后是123456</p>
+<p>拿出我的hackbar<br>
+传个post<br>
+webp=123456<br>
+&amp;a[]=1<br>
+&amp;b[]=2<br>
+&amp;c=9223372036854775806<br>
+<img src="https://chinaran0.github.io//post-images/1646552431531.png" alt="" loading="lazy"><br>
+人心险恶！！！！</p>
+<p>扫了一圈没扫到啥<br>
+猜测应该包含了杂项题</p>
+<p>反手把二次元妹妹下载下来，直接binwalk<br>
+<img src="https://chinaran0.github.io//post-images/1646552456069.png" alt="" loading="lazy"><br>
+果然有东西<br>
+<img src="https://chinaran0.github.io//post-images/1646552478591.png" alt="" loading="lazy"><br>
+fortmost出来<br>
+用已知解压密码解压，得到flag</p>
+<p>最后：<br>
+？？萌新赛？？？？？？？？？？</p>
+
+                                </div>
+                    </article>
+                    <!--  -->
+                    
+                        <div class="next-post">
+                            <div class="next">下一篇</div>
+                            <a href="https://chinaran0.github.io/post/ctfshowmeng-xin-sai-jia-sai-sheng/">
+                                <h3 class="post-title">
+                                    CTFSHOW[萌新赛-假赛生]
+                                </h3>
+                            </a>
+                        </div>
+                        
+                            <div id="disqus_thread"></div>
+                            <div id="gitalk-container"></div>
+                </div>
+                <!-- middle -->
+                <div class="main-container-middle"></div>
+                <!-- right -->
+                <div id="sidebar" class="main-container-right">
+                    
+                                <!-- id-card -->
+                                
+    <div class="id_card i-card">
+        <div class="id_card-avatar" style="background-image: url(https://chinaran0.github.io//images/avatar.png?v=1668866049705)">
+        </div>
+        <h1 class="id_card-title">
+            冄老狗
+        </h1>
+        <h2 class="id_card-description">
+            不管是什么原因，被禁止永远是一种没有授勋仪式的荣誉。
+——鲍勃・迪伦
+        </h2>
+        <!--  -->
+        <div class="id_card-sns">
+            <!-- github -->
+            
+                    <!-- twitter -->
+                    
+                            <!-- weibo -->
+                            
+                                    <!-- facebook -->
+                                    
+
+        </div>
+    </div>
+    
+                                    
+
+                </div>
+
+
+
+
+            </div>
+
+
+            <div class="site-footer">
+  <a href="https://github.com/ChinaRan0/" target="_blank">I will always pursue my dream</a> | 
+  <a class="rss" href="https://chinaran0.github.io//atom.xml" target="_blank">RSS</a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+
+    </div>
+    <script>
+        $('#sidebar').stickySidebar({
+            topSpacing: 80,
+            // bottomSpacing: 60
+        });
+    </script>
+    
+</body>
+
+</html>

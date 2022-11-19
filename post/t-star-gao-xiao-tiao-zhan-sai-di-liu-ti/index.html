@@ -1,0 +1,207 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>
+    [T-Star高校挑战赛]第六题 | 冄老狗
+</title>
+<link rel="shortcut icon" href="https://chinaran0.github.io//favicon.ico?v=1668866049705">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://chinaran0.github.io//styles/main.css">
+<!-- js -->
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://chinaran0.github.io//media/js/jquery.sticky-sidebar.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+
+
+        
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+    <div class="nav">
+        <div class="logo">
+            <a href="https://chinaran0.github.io/">
+                <img class="avatar" src="https://chinaran0.github.io//images/avatar.png?v=1668866049705" alt="">
+            </a>
+            <div class="site-title">
+                <h1>
+                    冄老狗
+                </h1>
+            </div>
+        </div>
+        <span class="menu-btn fa fa-align-justify"></span>
+        <div class="menu-container">
+            <ul>
+                
+                    
+                            <li>
+                                <a href="/" class="menu">
+                                    首页
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/archives" class="menu">
+                                    归档
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/tags" class="menu">
+                                    标签
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/post/about" class="menu">
+                                    关于
+                                </a>
+                            </li>
+                            
+                                
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function() {
+        $(".menu-btn").click(function() {
+            $(".menu-container").slideToggle();
+        });
+        $(window).resize(function() {
+
+            if (window.matchMedia('(min-width: 960px)').matches) {
+                $(".menu-container").css('display', 'block')
+            } else {
+                $(".menu-container").css('display', 'none')
+            }
+
+        });
+    });
+</script>
+
+            <div id="main-content" class="post-detail main-container">
+                <!-- left -->
+                <div id="content" class="main-container-left">
+                    <article class="post i-card">
+                        <h2 class="post-title">
+                            [T-Star高校挑战赛]第六题
+                        </h2>
+                        <div class="post-info">
+                            <time class="post-time">2022-05-06</time>
+                            
+                        </div>
+                        
+                                <div class="post-content">
+                                    <p>2022-04-25 #CTF<br>
+下载得到guess</p>
+<p>file guess 得到他的格式是word，然后打开，显示隐藏内容，得到：<br>
+<img src="https://chinaran0.github.io//post-images/1667190813950.png" alt="" loading="lazy"><br>
+然后binwalk 出来一张图片<br>
+<img src="https://chinaran0.github.io//post-images/1667190825827.jpg" alt="" loading="lazy"><br>
+不用想，肯定是隐写<br>
+跟据题目guess和已知密钥123456<br>
+有一个图片隐写是outguess，<br>
+git clone https://github.com/crorvick/outguess<br>
+自行下载编译安装<br>
+然后解<br>
+outguess -k 123456 -r image1.jpg text.txt<br>
+<img src="https://chinaran0.github.io//post-images/1667190848983.png" alt="" loading="lazy"><br>
+然后给他拼接起来得到一个新的地址：<br>
+http://175.178.148.197/062ycz7s9458b772e91/webs/<br>
+<img src="https://chinaran0.github.io//post-images/1667190866422.png" alt="" loading="lazy"><br>
+后来我就没继续做，一直没找到flag，后来赛后师傅们写出来文章，md,我差一点就拿到flag了<br>
+flag地址：http://175.178.148.197/062ycz7s9458b772e91/webs/index.php?url=http://127.0.0.2/062ycz7s9458b772e91/webs/flag.php</p>
+
+                                </div>
+                    </article>
+                    <!--  -->
+                    
+                        <div class="next-post">
+                            <div class="next">下一篇</div>
+                            <a href="https://chinaran0.github.io/post/ji-lu-wang-an-sheng-huo-spring-core-rce-fu-xian/">
+                                <h3 class="post-title">
+                                    [记录网安生活] Spring Core RCE复现
+                                </h3>
+                            </a>
+                        </div>
+                        
+                            <div id="disqus_thread"></div>
+                            <div id="gitalk-container"></div>
+                </div>
+                <!-- middle -->
+                <div class="main-container-middle"></div>
+                <!-- right -->
+                <div id="sidebar" class="main-container-right">
+                    
+                                <!-- id-card -->
+                                
+    <div class="id_card i-card">
+        <div class="id_card-avatar" style="background-image: url(https://chinaran0.github.io//images/avatar.png?v=1668866049705)">
+        </div>
+        <h1 class="id_card-title">
+            冄老狗
+        </h1>
+        <h2 class="id_card-description">
+            不管是什么原因，被禁止永远是一种没有授勋仪式的荣誉。
+——鲍勃・迪伦
+        </h2>
+        <!--  -->
+        <div class="id_card-sns">
+            <!-- github -->
+            
+                    <!-- twitter -->
+                    
+                            <!-- weibo -->
+                            
+                                    <!-- facebook -->
+                                    
+
+        </div>
+    </div>
+    
+                                    
+
+                </div>
+
+
+
+
+            </div>
+
+
+            <div class="site-footer">
+  <a href="https://github.com/ChinaRan0/" target="_blank">I will always pursue my dream</a> | 
+  <a class="rss" href="https://chinaran0.github.io//atom.xml" target="_blank">RSS</a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+
+    </div>
+    <script>
+        $('#sidebar').stickySidebar({
+            topSpacing: 80,
+            // bottomSpacing: 60
+        });
+    </script>
+    
+</body>
+
+</html>

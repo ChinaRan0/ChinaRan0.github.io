@@ -1,0 +1,208 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>
+    SHREDER学习&amp;使用笔记 | 冄老狗
+</title>
+<link rel="shortcut icon" href="https://chinaran0.github.io//favicon.ico?v=1668866049705">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://chinaran0.github.io//styles/main.css">
+<!-- js -->
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://chinaran0.github.io//media/js/jquery.sticky-sidebar.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+
+
+        
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+    <div class="nav">
+        <div class="logo">
+            <a href="https://chinaran0.github.io/">
+                <img class="avatar" src="https://chinaran0.github.io//images/avatar.png?v=1668866049705" alt="">
+            </a>
+            <div class="site-title">
+                <h1>
+                    冄老狗
+                </h1>
+            </div>
+        </div>
+        <span class="menu-btn fa fa-align-justify"></span>
+        <div class="menu-container">
+            <ul>
+                
+                    
+                            <li>
+                                <a href="/" class="menu">
+                                    首页
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/archives" class="menu">
+                                    归档
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/tags" class="menu">
+                                    标签
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/post/about" class="menu">
+                                    关于
+                                </a>
+                            </li>
+                            
+                                
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function() {
+        $(".menu-btn").click(function() {
+            $(".menu-container").slideToggle();
+        });
+        $(window).resize(function() {
+
+            if (window.matchMedia('(min-width: 960px)').matches) {
+                $(".menu-container").css('display', 'block')
+            } else {
+                $(".menu-container").css('display', 'none')
+            }
+
+        });
+    });
+</script>
+
+            <div id="main-content" class="post-detail main-container">
+                <!-- left -->
+                <div id="content" class="main-container-left">
+                    <article class="post i-card">
+                        <h2 class="post-title">
+                            SHREDER学习&amp;使用笔记
+                        </h2>
+                        <div class="post-info">
+                            <time class="post-time">2021-08-19</time>
+                            
+                        </div>
+                        
+                            <div class="post-feature-image" style="background-image: url('https://chinaran0.github.io//post-images/shreder-xue-xi-andshi-yong-bi-ji.png')"></div>
+                            
+                                <div class="post-content">
+                                    <p>Shreder是一款ssh协议跑字典工具<br>
+跑字典咱们有九头🐍就够了，但是遇到一个工具学习一个工具，这是对开发者的尊重。<br>
+项目地址：https://github.com/EntySec/Shreder</p>
+<p>sudo apt-get install python3-pip<br>
+安装pip</p>
+<p>安装shreder<br>
+pip3 install git+https://github.com/EntySec/Shreder</p>
+<p>他给我们报了个WARNING<br>
+WARNING: The script shreder is installed in '/home/liyu/.local/bin' which is not on PATH.<br>
+Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.</p>
+<p>不用管他，直接去<br>
+/home/liyu/.local/bin'找就行<br>
+<img src="https://chinaran0.github.io//post-images/1646310949392.png" alt="" loading="lazy"><br>
+行了，找个字典跑吧，由于我本机就是ubuntu，所以我们直接干127.0.0.1<br>
+shreder 127.0.0.1 -u liyu -l /media/liyu/软件/passwd.txt<br>
+[!] Password is not found.<br>
+[i] Time elapsed: 0.705286979675293</p>
+<p>当然跑不出来，我怎么可能会出现弱口令呢🤓</p>
+
+                                </div>
+                    </article>
+                    <!--  -->
+                    
+                        <div class="next-post">
+                            <div class="next">下一篇</div>
+                            <a href="https://chinaran0.github.io/post/chi-gua-bei-webre-shen-shellme_revengea/">
+                                <h3 class="post-title">
+                                    吃瓜杯WEB[热身][SHELLME_REVENGE]
+                                </h3>
+                            </a>
+                        </div>
+                        
+                            <div id="disqus_thread"></div>
+                            <div id="gitalk-container"></div>
+                </div>
+                <!-- middle -->
+                <div class="main-container-middle"></div>
+                <!-- right -->
+                <div id="sidebar" class="main-container-right">
+                    
+                                <!-- id-card -->
+                                
+    <div class="id_card i-card">
+        <div class="id_card-avatar" style="background-image: url(https://chinaran0.github.io//images/avatar.png?v=1668866049705)">
+        </div>
+        <h1 class="id_card-title">
+            冄老狗
+        </h1>
+        <h2 class="id_card-description">
+            不管是什么原因，被禁止永远是一种没有授勋仪式的荣誉。
+——鲍勃・迪伦
+        </h2>
+        <!--  -->
+        <div class="id_card-sns">
+            <!-- github -->
+            
+                    <!-- twitter -->
+                    
+                            <!-- weibo -->
+                            
+                                    <!-- facebook -->
+                                    
+
+        </div>
+    </div>
+    
+                                    
+
+                </div>
+
+
+
+
+            </div>
+
+
+            <div class="site-footer">
+  <a href="https://github.com/ChinaRan0/" target="_blank">I will always pursue my dream</a> | 
+  <a class="rss" href="https://chinaran0.github.io//atom.xml" target="_blank">RSS</a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+
+    </div>
+    <script>
+        $('#sidebar').stickySidebar({
+            topSpacing: 80,
+            // bottomSpacing: 60
+        });
+    </script>
+    
+</body>
+
+</html>
